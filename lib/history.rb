@@ -20,10 +20,10 @@ class History
     @history.push message
   end
 
-  def conversation_context(since: Time.at(Time.now.utc.to_i - 60*60*100), group_id:)
+  def recent_context(since: Time.at(Time.now.utc.to_i - 60*60*10000), group_id:)
     @history.filter do |msg|
       message = Message.new(msg)
       message.group_id == group_id && (message.sent_at > since) && message.body&.strip
-    end.last(5)
+    end.last(10)
   end
 end

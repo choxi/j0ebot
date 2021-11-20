@@ -33,7 +33,14 @@ class J0ebot
   )
 
   MODELS = OpenStruct.new(
-    curie: 'curie:ft-user-dcevl4kejddcyyy812bc7vkm-2021-11-20-08-52-47'
+    # Trained on the full group chat messages from Schmitty.
+    # Pretuned with OpenAI
+    # No stop sequences
+    # Results:
+    # It doesn't format the chat like it's supposed to, doesn't use newlines if the prompt doesn't have them.
+    group_chat: 'curie:ft-user-dcevl4kejddcyyy812bc7vkm-2021-11-20-08-52-47',
+    just_joe: 'curie:ft-user-dcevl4kejddcyyy812bc7vkm-2021-11-20-21-12-42',
+    davinci: "davinci",
   )
 
   attr_reader :number
@@ -74,13 +81,13 @@ class J0ebot
     context = history.conversation_context(since: @last_messaged_at, group_id: QANON_GROUP.id).map {|msg| Message.new(msg) }
     if context.length > 0
       logger.info "Catching up on the conversation..."
+      context = history.conversation_context(group_id: QANON_GROUP.id).map {|msg| Message.new(msg) }
 
       prompt = context.map(&:formatted).join("\n")
       prompt = CoreNarrative.context2(prompt)
       logger.info ">>> PROMPT"
       logger.info prompt
       response = openai.completions(parameters: { model: MODELS.curie, prompt: prompt, max_tokens: 100 })
-      binding.pry
       choice = response["choices"][0]["text"]
       logger.info ">>> GPT-3"
       logger.info choice

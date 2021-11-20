@@ -4,21 +4,21 @@ require "pry"
 
 class Data
   NUMBERS_TO_NAME = {
-    '+12192994442' => 'Joe',
-    '+12245780974' => 'Roshan',
-    '+18472715832' => 'Matt',
-    '+12247230113' => 'Jonas',
-    '+16308999196' => 'Max',
+    '+12192994442' => 'Joe Janiczek',
+    '+12245780974' => 'Roshan Choxi',
+    '+18472715832' => 'Matt Carter',
+    '+12247230113' => 'Jonas Owen',
+    '+16308999196' => 'Max Schwanebeck',
   }
 
   UUID_TO_NAME = {
-    'f2ac7614-a07f-46ee-8703-cb7ed2293840' => 'Max',
-    '120e1329-f5cd-4b9f-abe8-a77ff7e3be8a' => 'Matt',
-    'cf24122d-0db2-4d3b-bfd9-635eda38a9e1' => 'Schmitty',
-    '120e1329-f5cd-4b9f-abe8-a77ff7e3be8a' => 'Krishnan',
-    'f06e4fc2-34a3-4820-a706-35d32eceb69e' => 'Jonas',
-    '64fa33dc-a206-4357-afee-d96daaa99354' => 'Roshan',
-    'ac875429-1624-40c7-925c-731fe43d3cf7' => 'Frank'
+    'f2ac7614-a07f-46ee-8703-cb7ed2293840' => 'Max Schwanebeck',
+    '120e1329-f5cd-4b9f-abe8-a77ff7e3be8a' => 'Matt Carter',
+    'cf24122d-0db2-4d3b-bfd9-635eda38a9e1' => 'Michael Schmitt',
+    '120e1329-f5cd-4b9f-abe8-a77ff7e3be8a' => 'Krishnan Warrior',
+    'f06e4fc2-34a3-4820-a706-35d32eceb69e' => 'Jonas Owen',
+    '64fa33dc-a206-4357-afee-d96daaa99354' => 'Roshan Choxi',
+    'ac875429-1624-40c7-925c-731fe43d3cf7' => 'Francisco Saldana'
   }
 
   def self.load
@@ -30,7 +30,7 @@ class Data
       type = message["type"]
       next unless ["incoming", "outgoing"].include?(type)
 
-      message["source_name"] = 'Schmitty' if type == "outgoing"
+      message["source_name"] = 'Michael Schmitt' if type == "outgoing"
       message["source_name"] ||= NUMBERS_TO_NAME[number]
       message["source_name"] ||= UUID_TO_NAME[uuid]
 
@@ -44,12 +44,12 @@ end
 
 def generate_fine_tuning_file(messages, generative: false)
   formatted = messages.filter {|m| m && m["source_name"] && (m["body"] || '').strip.length > 0 }.map do |message|
-    log = "#{message["source_name"]}: #{message["body"]}"
+    received_at = Time.at(message["sent_at"] / 1000.0)
     if generative
-      puts "#{message["source_name"]}: #{message["body"]}"
+      puts "[#{received_at.strftime("%m-%d-%Y %I:%M %p")}] <#{message["source_name"]}> #{message["body"]}"
       {
         prompt: "",
-        completion: "#{message["source_name"]}: #{message["body"]}",
+        completion: "[#{received_at.strftime("%m-%d-%Y %I:%M %p")}] <#{message["source_name"]}> #{message["body"]}",
       }.to_json
     else
       {
@@ -75,10 +75,10 @@ def only_joe_tuning_file(messages)
 end
 
 data = Data.load
-# body = generate_fine_tuning_file(data, generative: true)
-body = only_joe_tuning_file(data)
+body = generate_fine_tuning_file(data, generative: true)
+# body = only_joe_tuning_file(data)
 words = body.split.size
 
 puts "#{words} words -> #{words / 750 * 1000 } tokens -> $#{(0.0008 * words / 750).round(2)}"
 
-File.write(File.join(".", "data", "only-joe.jsonl"), body)
+File.write(File.join(".", "data", "group-chat-timestamps.jsonl"), body)

@@ -82,10 +82,15 @@ Joe: Merely saying it's "baseless" isn't good enough
 Joe: Take the L, Schmitty
 Joe: How can you pump $1T into the economy and not have inflation? You're being ridiculous Schmitty
 
-Complete the transcript below. What would Joe say next?
+Complete the transcript below. What would *Joe* say next?
 
 #{body}
-Joe:
-).strip
+)
+  end
+
+  def self.context3(body)
+%Q(
+#{body}
+)
   end
 end

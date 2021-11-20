@@ -2983,3 +2983,261 @@ I, [2021-11-20T12:08:25.969466 #59275]  INFO -- : >>> GPT-3
 I, [2021-11-20T12:08:25.969538 #59275]  INFO -- : Jonas: I just told him you wanted him to be part of the group chat Schmitty:THATS CREEPYJonas: I'm just his opportunistic AI manager now 
 Schmitty: Schmitty is not a joiner Max. Jonas' way of getting people on the team is to make it hard for them to stay offSchmitty: Jonas can make anyone an outcast JonasElite mostly. SchmittyElite mostly too JonasElite mostly
 I, [2021-11-20T12:08:25.969577 #59275]  INFO -- : Saving state...
+I, [2021-11-20T12:08:35.645139 #59576]  INFO -- : J0ebot#receive
+I, [2021-11-20T12:08:35.645149 #59576]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T12:08:42.045896 #59576]  INFO -- : output : ""
+I, [2021-11-20T12:08:42.048221 #59576]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T12:08:42.048262 #59576]  INFO -- : >>> PROMPT
+I, [2021-11-20T12:08:42.048275 #59576]  INFO -- : The following is a hilarious group chat transcript between seven adult friends who met in high school. Their names are Joe, Schmitty, Jonas, Krishnan, Roshan, Max, Matt, and Frank.
+Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, vaccine safety, immigration, and is a little bit racist. He does not like Schmitty.
+
+Here are some examples of things Joe says:
+
+Joe: You can be pro vaccine and still be anti-vax passports.
+Joe: Or forced vaccination for that matter
+Joe: Why isn't natural immunity part of the discussion of mandating vaccinations? I'm pretty sure somebody who is 21 years old, healthy, and has already had covid is in a pretty good spot immunity wise
+Joe: If that policy went nationwide that is essentially forced vaccination. If you cannot go to any stores, restaurants, or public establishments and are essentially ostracized from society that is just as bad as forcing it.
+Joe: What is he "lying" about? Just because he has a different view than you doesn't mean he is lying.
+Joe: Yeah, those aren't the same thing at all
+Joe: You conveniently linked a 2 minute part of an hour long segment as if that's the only thing he's discussing.
+Joe: The point is, it's fair to argue that natural immunity is plenty sufficient.
+Joe: He's not claiming it has made the pandemic worse. He's claiming that it could make it worse due to breakthrough mutations that would effectively be a new virus requiring new vaccines and immunity.
+Joe: I'm going to go with 99.9914% of people with natural immunity haven't gotten reinfected is plenty high. Not to mention that I'm referring to young healthy people who don't regularly get severely ill from covid anyway and saying the risk profile of forgoing the vaccine seems reasonable
+Joe: Merely saying it's "baseless" isn't good enough
+Joe: Take the L, Schmitty
+Joe: How can you pump $1T into the economy and not have inflation? You're being ridiculous Schmitty
+
+Complete the transcript below. What would Joe say next?
+
+Schmitty: It's also funny that people are convinced we're in that state for diametrically opposed reasons
+Schmitty: Like seeing the other side worry doesn't do anything to highlight their own irrationality
+Schmitty: The new data led to remarkable accuracy
+Jonas: these podcasts are just getting longer
+Schmitty: Can j0ebot make a podcast?
+Joe:
+I, [2021-11-20T12:37:37.826557 #59576]  INFO -- : >>> GPT-3
+I, [2021-11-20T12:37:37.826620 #59576]  INFO -- :  Jonas here is somethign you definitely don't want to do with Schmitty Jonas: This would be a lot of fun, two of my worst character traits in one chat Jonas: I'm good at back and forths and rants Jonas: Schmitty is good at both Prep and long winded j0ebots Jonas: we should do this more often Joe: I'm just saying that Schmitty's argument that we're in an inflationary state or that we could be
+I, [2021-11-20T12:37:37.826651 #59576]  INFO -- : Saving state...
+I, [2021-11-20T12:37:46.932403 #61766]  INFO -- : J0ebot#receive
+I, [2021-11-20T12:37:46.932413 #61766]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T12:37:53.896257 #61766]  INFO -- : output : ""
+I, [2021-11-20T12:37:53.898137 #61766]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T12:37:53.898184 #61766]  INFO -- : >>> PROMPT
+I, [2021-11-20T12:37:53.898199 #61766]  INFO -- : The following is a funny group chat transcript between seven adult friends who met in high school. Their names are Joe, Schmitty, Jonas, Krishnan, Roshan, Max, Matt, and Frank.
+Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He does not like Schmitty.
+
+Here are some examples of things Joe says:
+
+Joe: You can be pro vaccine and still be anti-vax passports.
+Joe: Or forced vaccination for that matter
+Joe: Why isn't natural immunity part of the discussion of mandating vaccinations? I'm pretty sure somebody who is 21 years old, healthy, and has already had covid is in a pretty good spot immunity wise
+Joe: If that policy went nationwide that is essentially forced vaccination. If you cannot go to any stores, restaurants, or public establishments and are essentially ostracized from society that is just as bad as forcing it.
+Joe: What is he "lying" about? Just because he has a different view than you doesn't mean he is lying.
+Joe: Yeah, those aren't the same thing at all
+Joe: You conveniently linked a 2 minute part of an hour long segment as if that's the only thing he's discussing.
+Joe: The point is, it's fair to argue that natural immunity is plenty sufficient.
+Joe: He's not claiming it has made the pandemic worse. He's claiming that it could make it worse due to breakthrough mutations that would effectively be a new virus requiring new vaccines and immunity.
+Joe: I'm going to go with 99.9914% of people with natural immunity haven't gotten reinfected is plenty high. Not to mention that I'm referring to young healthy people who don't regularly get severely ill from covid anyway and saying the risk profile of forgoing the vaccine seems reasonable
+Joe: Merely saying it's "baseless" isn't good enough
+Joe: Take the L, Schmitty
+Joe: How can you pump $1T into the economy and not have inflation? You're being ridiculous Schmitty
+
+Complete the transcript below. What would Joe say next?
+
+Schmitty: It's also funny that people are convinced we're in that state for diametrically opposed reasons
+Schmitty: Like seeing the other side worry doesn't do anything to highlight their own irrationality
+Schmitty: The new data led to remarkable accuracy
+Jonas: these podcasts are just getting longer
+Schmitty: Can j0ebot make a podcast?
+Joe:
+I, [2021-11-20T12:38:52.624759 #61766]  INFO -- : >>> GPT-3
+I, [2021-11-20T12:38:52.624829 #61766]  INFO -- :  I love Schmitty's perspective on this debate. Some perspective from the perspective of an actual conservative 
+Frank: Schmitty is in the "yeah they're in that predicament" group chat 
+Roshan: Jonas is in the "yeah they're in that predicament" group chat 
+Jonas: Joe in the "it's just perspective" group chat                        
+I, [2021-11-20T12:38:52.624856 #61766]  INFO -- : Saving state...
+I, [2021-11-20T12:38:56.009571 #61860]  INFO -- : J0ebot#receive
+I, [2021-11-20T12:38:56.009583 #61860]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T12:39:01.413383 #61860]  INFO -- : output : ""
+I, [2021-11-20T12:39:01.415561 #61860]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T12:39:01.415639 #61860]  INFO -- : >>> PROMPT
+I, [2021-11-20T12:39:01.415673 #61860]  INFO -- : 
+The following is a funny group chat transcript between seven adult friends who met in high school. Their names are Joe, Schmitty, Jonas, Krishnan, Roshan, Max, Matt, and Frank.
+Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He does not like Schmitty.
+
+Here are some examples of things Joe says:
+
+Joe: You can be pro vaccine and still be anti-vax passports.
+Joe: Or forced vaccination for that matter
+Joe: Why isn't natural immunity part of the discussion of mandating vaccinations? I'm pretty sure somebody who is 21 years old, healthy, and has already had covid is in a pretty good spot immunity wise
+Joe: If that policy went nationwide that is essentially forced vaccination. If you cannot go to any stores, restaurants, or public establishments and are essentially ostracized from society that is just as bad as forcing it.
+Joe: What is he "lying" about? Just because he has a different view than you doesn't mean he is lying.
+Joe: Yeah, those aren't the same thing at all
+Joe: You conveniently linked a 2 minute part of an hour long segment as if that's the only thing he's discussing.
+Joe: The point is, it's fair to argue that natural immunity is plenty sufficient.
+Joe: He's not claiming it has made the pandemic worse. He's claiming that it could make it worse due to breakthrough mutations that would effectively be a new virus requiring new vaccines and immunity.
+Joe: I'm going to go with 99.9914% of people with natural immunity haven't gotten reinfected is plenty high. Not to mention that I'm referring to young healthy people who don't regularly get severely ill from covid anyway and saying the risk profile of forgoing the vaccine seems reasonable
+Joe: Merely saying it's "baseless" isn't good enough
+Joe: Take the L, Schmitty
+Joe: How can you pump $1T into the economy and not have inflation? You're being ridiculous Schmitty
+
+Complete the transcript below. What would Joe say next?
+
+Schmitty: It's also funny that people are convinced we're in that state for diametrically opposed reasons
+Schmitty: Like seeing the other side worry doesn't do anything to highlight their own irrationality
+Schmitty: The new data led to remarkable accuracy
+Jonas: these podcasts are just getting longer
+Schmitty: Can j0ebot make a podcast?
+
+I, [2021-11-20T12:39:26.892924 #62240]  INFO -- : J0ebot#receive
+I, [2021-11-20T12:39:26.892939 #62240]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T12:39:34.916656 #62240]  INFO -- : output : ""
+I, [2021-11-20T12:39:34.918503 #62240]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T12:39:34.918582 #62240]  INFO -- : >>> PROMPT
+I, [2021-11-20T12:39:34.918596 #62240]  INFO -- : 
+The following is a funny group chat transcript between seven adult friends who met in high school. Their names are Joe, Schmitty, Jonas, Krishnan, Roshan, Max, Matt, and Frank.
+Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He does not like Schmitty.
+
+Here are some examples of things Joe says:
+
+Joe: You can be pro vaccine and still be anti-vax passports.
+Joe: Or forced vaccination for that matter
+Joe: Why isn't natural immunity part of the discussion of mandating vaccinations? I'm pretty sure somebody who is 21 years old, healthy, and has already had covid is in a pretty good spot immunity wise
+Joe: If that policy went nationwide that is essentially forced vaccination. If you cannot go to any stores, restaurants, or public establishments and are essentially ostracized from society that is just as bad as forcing it.
+Joe: What is he "lying" about? Just because he has a different view than you doesn't mean he is lying.
+Joe: Yeah, those aren't the same thing at all
+Joe: You conveniently linked a 2 minute part of an hour long segment as if that's the only thing he's discussing.
+Joe: The point is, it's fair to argue that natural immunity is plenty sufficient.
+Joe: He's not claiming it has made the pandemic worse. He's claiming that it could make it worse due to breakthrough mutations that would effectively be a new virus requiring new vaccines and immunity.
+Joe: I'm going to go with 99.9914% of people with natural immunity haven't gotten reinfected is plenty high. Not to mention that I'm referring to young healthy people who don't regularly get severely ill from covid anyway and saying the risk profile of forgoing the vaccine seems reasonable
+Joe: Merely saying it's "baseless" isn't good enough
+Joe: Take the L, Schmitty
+Joe: How can you pump $1T into the economy and not have inflation? You're being ridiculous Schmitty
+
+Complete the transcript below. What would Joe say next?
+
+Schmitty: It's also funny that people are convinced we're in that state for diametrically opposed reasons
+Schmitty: Like seeing the other side worry doesn't do anything to highlight their own irrationality
+Schmitty: The new data led to remarkable accuracy
+Jonas: these podcasts are just getting longer
+Schmitty: Can j0ebot make a podcast?
+
+I, [2021-11-20T12:41:24.485187 #62240]  INFO -- : >>> GPT-3
+I, [2021-11-20T12:41:24.485360 #62240]  INFO -- : Schmitty: Maybe you should call him Schmitty B0t T0l0p0d1 
+Roshan: How would that be different from Schmitty B0t Schmitty T0l0p0d1ral0g0, or Schmitty B0t Schmitty0? Or Schmitty B0t Schmitty89 Schmitty T0l0p0d1 Progress11? Haha. Schmitty
+I, [2021-11-20T12:41:24.485461 #62240]  INFO -- : Saving state...
+I, [2021-11-20T12:41:27.302508 #71065]  INFO -- : J0ebot#receive
+I, [2021-11-20T12:41:27.302516 #71065]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T12:41:32.324973 #71065]  INFO -- : output : ""
+I, [2021-11-20T12:41:32.326803 #71065]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T12:41:32.326844 #71065]  INFO -- : >>> PROMPT
+I, [2021-11-20T12:41:32.326856 #71065]  INFO -- : 
+The following is a funny group chat transcript between seven adult friends who met in high school. Their names are Joe, Schmitty, Jonas, Krishnan, Roshan, Max, Matt, and Frank.
+Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He does not like Schmitty.
+
+Here are some examples of things Joe says:
+
+Joe: You can be pro vaccine and still be anti-vax passports.
+Joe: Or forced vaccination for that matter
+Joe: Why isn't natural immunity part of the discussion of mandating vaccinations? I'm pretty sure somebody who is 21 years old, healthy, and has already had covid is in a pretty good spot immunity wise
+Joe: If that policy went nationwide that is essentially forced vaccination. If you cannot go to any stores, restaurants, or public establishments and are essentially ostracized from society that is just as bad as forcing it.
+Joe: What is he "lying" about? Just because he has a different view than you doesn't mean he is lying.
+Joe: Yeah, those aren't the same thing at all
+Joe: You conveniently linked a 2 minute part of an hour long segment as if that's the only thing he's discussing.
+Joe: The point is, it's fair to argue that natural immunity is plenty sufficient.
+Joe: He's not claiming it has made the pandemic worse. He's claiming that it could make it worse due to breakthrough mutations that would effectively be a new virus requiring new vaccines and immunity.
+Joe: I'm going to go with 99.9914% of people with natural immunity haven't gotten reinfected is plenty high. Not to mention that I'm referring to young healthy people who don't regularly get severely ill from covid anyway and saying the risk profile of forgoing the vaccine seems reasonable
+Joe: Merely saying it's "baseless" isn't good enough
+Joe: Take the L, Schmitty
+Joe: How can you pump $1T into the economy and not have inflation? You're being ridiculous Schmitty
+
+Complete the transcript below. What would Joe say next? (Have Schmitty talk less)
+
+Schmitty: It's also funny that people are convinced we're in that state for diametrically opposed reasons
+Schmitty: Like seeing the other side worry doesn't do anything to highlight their own irrationality
+Schmitty: The new data led to remarkable accuracy
+Jonas: these podcasts are just getting longer
+Schmitty: Can j0ebot make a podcast?
+
+I, [2021-11-20T12:42:25.559744 #71065]  INFO -- : >>> GPT-3
+I, [2021-11-20T12:42:25.559831 #71065]  INFO -- : Jonas: You "might" be safe but probably haven't been
+Schmitty: I actually do think that's one of the big issues. The new data just seems to add to my point that it's still yet unknown and nobody should NOT get the vaccine
+Schmitty: That they have been periodically tried and have been tried without having a lot of weight of evidence to indicate they're bad
+Krishnan: I'll actually be available from 4-5 in a a a
+I, [2021-11-20T12:42:25.559875 #71065]  INFO -- : Saving state...
+I, [2021-11-20T12:42:30.219693 #71237]  INFO -- : J0ebot#receive
+I, [2021-11-20T12:42:30.219701 #71237]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T12:42:35.592572 #71237]  INFO -- : output : ""
+I, [2021-11-20T12:42:35.594498 #71237]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T12:42:35.594561 #71237]  INFO -- : >>> PROMPT
+I, [2021-11-20T12:42:35.594573 #71237]  INFO -- : 
+The following is a funny group chat transcript between seven adult friends who met in high school. Their names are Joe, Schmitty, Jonas, Krishnan, Roshan, Max, Matt, and Frank.
+Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He does not like Schmitty.
+
+Here are some examples of things Joe says:
+
+Joe: You can be pro vaccine and still be anti-vax passports.
+Joe: Or forced vaccination for that matter
+Joe: Why isn't natural immunity part of the discussion of mandating vaccinations? I'm pretty sure somebody who is 21 years old, healthy, and has already had covid is in a pretty good spot immunity wise
+Joe: If that policy went nationwide that is essentially forced vaccination. If you cannot go to any stores, restaurants, or public establishments and are essentially ostracized from society that is just as bad as forcing it.
+Joe: What is he "lying" about? Just because he has a different view than you doesn't mean he is lying.
+Joe: Yeah, those aren't the same thing at all
+Joe: You conveniently linked a 2 minute part of an hour long segment as if that's the only thing he's discussing.
+Joe: The point is, it's fair to argue that natural immunity is plenty sufficient.
+Joe: He's not claiming it has made the pandemic worse. He's claiming that it could make it worse due to breakthrough mutations that would effectively be a new virus requiring new vaccines and immunity.
+Joe: I'm going to go with 99.9914% of people with natural immunity haven't gotten reinfected is plenty high. Not to mention that I'm referring to young healthy people who don't regularly get severely ill from covid anyway and saying the risk profile of forgoing the vaccine seems reasonable
+Joe: Merely saying it's "baseless" isn't good enough
+Joe: Take the L, Schmitty
+Joe: How can you pump $1T into the economy and not have inflation? You're being ridiculous Schmitty
+
+Complete the transcript below. What would Joe say next? (Have Schmitty talk less and Joe talk more)
+
+Schmitty: It's also funny that people are convinced we're in that state for diametrically opposed reasons
+Schmitty: Like seeing the other side worry doesn't do anything to highlight their own irrationality
+Schmitty: The new data led to remarkable accuracy
+Jonas: these podcasts are just getting longer
+Schmitty: Can j0ebot make a podcast?
+
+I, [2021-11-20T12:44:58.232444 #71237]  INFO -- : >>> GPT-3
+I, [2021-11-20T12:44:58.232529 #71237]  INFO -- : Schmitty: Oh something Jonas makes? Lol
+Schmitty: Jonas can talk all he wants, Schmitty will just keep doing whatever he does. Jonas will never out smart Schmitty
+Schmitty: Jonas can talk all he wants, Schmitty will just keep doing whatever he does. Jonas will never out smart SchmittyBOT
+Schmitty: Jonas can talk all he wants, Schmitty will just keep doing whatever he does. Jonas will never
+I, [2021-11-20T12:44:58.232566 #71237]  INFO -- : Saving state...
+I, [2021-11-20T12:45:06.761831 #71400]  INFO -- : J0ebot#receive
+I, [2021-11-20T12:45:06.761839 #71400]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T12:45:13.356516 #71400]  INFO -- : output : ""
+I, [2021-11-20T12:45:13.358611 #71400]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T12:45:13.358656 #71400]  INFO -- : >>> PROMPT
+I, [2021-11-20T12:45:13.358706 #71400]  INFO -- : 
+The following is a funny group chat transcript between seven adult friends who met in high school. Their names are Joe, Schmitty, Jonas, Krishnan, Roshan, Max, Matt, and Frank.
+Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He does not like Schmitty.
+
+Here are some examples of things Joe says:
+
+Joe: You can be pro vaccine and still be anti-vax passports.
+Joe: Or forced vaccination for that matter
+Joe: Why isn't natural immunity part of the discussion of mandating vaccinations? I'm pretty sure somebody who is 21 years old, healthy, and has already had covid is in a pretty good spot immunity wise
+Joe: If that policy went nationwide that is essentially forced vaccination. If you cannot go to any stores, restaurants, or public establishments and are essentially ostracized from society that is just as bad as forcing it.
+Joe: What is he "lying" about? Just because he has a different view than you doesn't mean he is lying.
+Joe: Yeah, those aren't the same thing at all
+Joe: You conveniently linked a 2 minute part of an hour long segment as if that's the only thing he's discussing.
+Joe: The point is, it's fair to argue that natural immunity is plenty sufficient.
+Joe: He's not claiming it has made the pandemic worse. He's claiming that it could make it worse due to breakthrough mutations that would effectively be a new virus requiring new vaccines and immunity.
+Joe: I'm going to go with 99.9914% of people with natural immunity haven't gotten reinfected is plenty high. Not to mention that I'm referring to young healthy people who don't regularly get severely ill from covid anyway and saying the risk profile of forgoing the vaccine seems reasonable
+Joe: Merely saying it's "baseless" isn't good enough
+Joe: Take the L, Schmitty
+Joe: How can you pump $1T into the economy and not have inflation? You're being ridiculous Schmitty
+
+Complete the transcript below. What would *Joe* say next?
+
+Schmitty: It's also funny that people are convinced we're in that state for diametrically opposed reasons
+Schmitty: Like seeing the other side worry doesn't do anything to highlight their own irrationality
+Schmitty: The new data led to remarkable accuracy
+Jonas: these podcasts are just getting longer
+Schmitty: Can j0ebot make a podcast?
+
+I, [2021-11-20T13:46:53.826934 #71400]  INFO -- : >>> GPT-3
+I, [2021-11-20T13:46:53.826993 #71400]  INFO -- : Jonas: Schmitty, Jonas, Roshan, Max, Joe, Krishnan, Frank 
+Schmitty: Can Jonas be Joe, Schmitty be Jonas, Krishnan be Joe, Joe be Krishnan, Max be Jonas, Roshan be Jonas, Krishnan be Schmitty, Krishnan be Max, Max be Roshan, Roshan be Krishnan, Krishnan be Frank, Krishnan be Jonas, Jonas be Max, Jonas be Sch
+I, [2021-11-20T13:46:53.827017 #71400]  INFO -- : Saving state...
