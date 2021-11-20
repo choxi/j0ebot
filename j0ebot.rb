@@ -1,26 +1,12 @@
 require 'json'
 require 'logger'
+require 'pry'
+
 require './lib/multi_i_o'
-
-class History
-  attr_accessor :logger
-
-  def initialize(file_path)
-    @history = File.file?(file_path) ? File.read(file_path).split("\n").map { |line| JSON.parse(line) } : []
-    @storage = File.open(file_path, 'a')
-    @logger = Logger.new(STDOUT)
-    logger.info "Loaded #{@history.length} messages into history."
-  end
-
-  def push(message)
-    @storage.write message.to_json
-    @history.push message
-  end
-
-  def conversation_context
-    @history.last(5)
-  end
-end
+require './lib/message'
+require './lib/history'
+require './lib/core_narrative'
+require './lib/openai'
 
 class J0ebot
   NUMBERS_TO_NAME = {
@@ -31,59 +17,88 @@ class J0ebot
     '+16308999196' => 'Max',
   }
 
-  UUID_TO_NAME = {
-    'f2ac7614-a07f-46ee-8703-cb7ed2293840' => 'Max',
-    '120e1329-f5cd-4b9f-abe8-a77ff7e3be8a' => 'Matt',
-    'cf24122d-0db2-4d3b-bfd9-635eda38a9e1' => 'Schmitty',
-    '120e1329-f5cd-4b9f-abe8-a77ff7e3be8a' => 'Krishnan',
-    'f06e4fc2-34a3-4820-a706-35d32eceb69e' => 'Jonas',
-    '64fa33dc-a206-4357-afee-d96daaa99354' => 'Roshan',
-    'ac875429-1624-40c7-925c-731fe43d3cf7' => 'Frank'
-  }
   J0EBOT_NUMBER = '+17342378793'
   LOGPATH = './j0ebot.log'
   HISTORY_PATH = File.join(".", "data", "messages.jsonl")
-  GROUPS = {
+  STATE_PATH = File.join(".", "data", "state.json")
+
+  QANON_GROUP = OpenStruct.new(
     id: 'x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=',
     name: '- Qanon',
-  }
+  )
+
+  ENGINES = OpenStruct.new(
+    davinci: "davinci",
+    curie: "curie"
+  )
+
+  MODELS = OpenStruct.new(
+    curie: 'curie:ft-user-dcevl4kejddcyyy812bc7vkm-2021-11-20-08-52-47'
+  )
 
   attr_reader :number
   attr_reader :logger
   attr_reader :message_logger
   attr_reader :history
 
-  def initialize(number = J0EBOT_NUMBER)
+  def initialize(number = J0EBOT_NUMBER, state_path = STATE_PATH)
     @number = number
     @logger = Logger.new(MultiIO.new(STDOUT, File.open(LOGPATH, "a")))
     @history = History.new(HISTORY_PATH)
     @openai = OpenAI::Client.new(access_token: ENV["OPENAI_API_KEY"])
+    @last_messaged_at = Time.now.utc
+    @state_path = state_path
+
+    if File.file?(@state_path)
+      state = JSON.parse(File.read(@state_path))
+      @last_messaged_at = Time.parse(state["last_messaged_at"]) if state["last_messaged_at"]
+    end
   end
 
   def listen
     loop do
       puts "Pulse..."
-      receive.each do |message|
-        source = UUID_TO_NAME[message["envelope"]["sourceUuid"]]
-        body = message["envelope"]["dataMessage"]
-        mentioned = body["envelope"]["dataMessage"]["mentions"]
-      end
-      sleep 5
+      receive
+      sleep 60 * 30 # 30 minutes
     end
   end
 
   def receive
     logger.info "J0ebot#receive"
     messages = run("receive")
-    response = openai.completions(engine: "davinci", parameters: { prompt: "Once upon a time", max_tokens: 5 })
-    puts response.inspect
 
     messages.each do |message|
-      if message.is_a? Hash
-        message_logger.info message.to_json
-        @history << message
+      history.push(message) if message.is_a? Hash
+    end
+
+    context = history.conversation_context(since: @last_messaged_at, group_id: QANON_GROUP.id).map {|msg| Message.new(msg) }
+    if context.length > 0
+      logger.info "Catching up on the conversation..."
+
+      prompt = context.map(&:formatted).join("\n")
+      prompt = CoreNarrative.context2(prompt)
+      logger.info ">>> PROMPT"
+      logger.info prompt
+      response = openai.completions(parameters: { model: MODELS.curie, prompt: prompt, max_tokens: 100 })
+      binding.pry
+      choice = response["choices"][0]["text"]
+      logger.info ">>> GPT-3"
+      logger.info choice
+
+      joe_statements = choice.split("\n").filter {|line| line =~ /^Joe\:/}
+      logger.info "joe statements: #{joe_statements.inspect}}" if joe_statements.length > 0
+
+      if statement = joe_statements.first
+        # message = statement.split(":")[1].strip
+        # send(message, group_id: QANON_GROUP.id)
+        # @last_messaged_at = Time.now.utc
       end
     end
+
+    logger.info "Saving state..."
+    save
+
+    messages
   end
 
   def send(message, group_id: nil, number: nil)
@@ -95,11 +110,11 @@ class J0ebot
     end
 
     if group_id
-      run("send -m '#{message}' -g #{group_id}")
+      run(%Q(send -m "#{message}" -g #{group_id}))
       return
     end
 
-    run("send -m '#{message}' #{number}")
+    run(%Q(send -m "#{message}" #{number}))
   end
 
   def groups
@@ -107,6 +122,11 @@ class J0ebot
     @groups ||= run("listGroups")
     logger.info "groups: #{@groups.inspect}"
     @groups
+  end
+
+  def save
+    state = { last_messaged_at: @last_messaged_at }
+    File.write(@state_path, state.to_json)
   end
 
   private

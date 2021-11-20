@@ -46,9 +46,10 @@ def generate_fine_tuning_file(messages, generative: false)
   formatted = messages.filter {|m| m && m["source_name"] && (m["body"] || '').strip.length > 0 }.map do |message|
     log = "#{message["source_name"]}: #{message["body"]}"
     if generative
+      puts "#{message["source_name"]}: #{message["body"]}"
       {
         prompt: "",
-        completion: " #{message["source_name"]}: #{message["body"]}",
+        completion: "#{message["source_name"]}: #{message["body"]}",
       }.to_json
     else
       {
@@ -57,11 +58,27 @@ def generate_fine_tuning_file(messages, generative: false)
       }.to_json
     end
   end.join("\n")
+ end
+
+def only_joe_tuning_file(messages)
+  filtered = messages.filter do |m|
+    m && m["source_name"] && (m["body"] || '').strip.length > 0 && m["source_name"] == 'Joe'
+  end
+
+  filtered.map do |message|
+    puts "#{message["source_name"]}: #{message["body"]}"
+    {
+      prompt: "",
+      completion: " #{message["body"]}",
+    }.to_json
+  end.join("\n")
 end
 
-body = generate_fine_tuning_file(Data.load, generative: true)
+data = Data.load
+# body = generate_fine_tuning_file(data, generative: true)
+body = only_joe_tuning_file(data)
 words = body.split.size
 
 puts "#{words} words -> #{words / 750 * 1000 } tokens -> $#{(0.0008 * words / 750).round(2)}"
 
-File.write(File.join(".", "data", "group-chat.jsonl"), body)
+File.write(File.join(".", "data", "only-joe.jsonl"), body)
