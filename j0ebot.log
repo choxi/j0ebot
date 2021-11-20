@@ -1,0 +1,885 @@
+I, [2021-11-19T21:59:02.497122 #33567]  INFO -- : J0ebot#receive
+E, [2021-11-19T21:59:14.715496 #33567] ERROR -- : Failed to run command: receive
+E, [2021-11-19T21:59:14.715657 #33567] ERROR -- : #<JSON::ParserError: 783: unexpected token at '{"envelope":{"source":"+18472715832","sourceNumber":"+18472715832","sourceUuid":"91d24822-6d0d-4c72-b9de-c6987a958724","sourceName":"Matt Carter","sourceDevice":1,"timestamp":1637378916087,"dataMessage":{"timestamp":1637378916087,"message":"What does it take to trigger j0ebot?","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+12247230113","sourceNumber":"+12247230113","sourceUuid":"f06e4fc2-34a3-4820-a706-35d32eceb69e","sourceName":"Jonas Owen","sourceDevice":1,"timestamp":1637378945695,"dataMessage":{"timestamp":1637378945695,"message":"like does he randomly interject","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18472715832","sourceNumber":"+18472715832","sourceUuid":"91d24822-6d0d-4c72-b9de-c6987a958724","sourceName":"Matt Carter","sourceDevice":1,"timestamp":1637378965858,"dataMessage":{"timestamp":1637378965858,"message":"I'm assuming ivermectin and mandated inoculations","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18472715832","sourceNumber":"+18472715832","sourceUuid":"91d24822-6d0d-4c72-b9de-c6987a958724","sourceName":"Matt Carter","sourceDevice":1,"timestamp":1637378975305,"receiptMessage":{"when":1637378975305,"isDelivery":true,"isRead":false,"timestamps":[1637378973826]}}}
+{"envelope":{"source":"+12245780974","sourceNumber":"+12245780974","sourceUuid":"64fa33dc-a206-4357-afee-d96daaa99354","sourceName":"Roshan","sourceDevice":1,"timestamp":1637378975707,"receiptMessage":{"when":1637378975707,"isDelivery":true,"isRead":false,"timestamps":[1637378973826]}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637378976156,"receiptMessage":{"when":1637378976156,"isDelivery":true,"isRead":false,"timestamps":[1637378973826]}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":1,"timestamp":1637378976396,"receiptMessage":{"when":1637378976396,"isDelivery":true,"isRead":false,"timestamps":[1637378973826]}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637378977494,"receiptMessage":{"when":1637378977494,"isDelivery":true,"isRead":false,"timestamps":[1637378973826]}}}
+{"envelope":{"source":"+12245780974","sourceNumber":"+12245780974","sourceUuid":"64fa33dc-a206-4357-afee-d96daaa99354","sourceName":"Roshan","sourceDevice":1,"timestamp":1637378978886,"receiptMessage":{"when":1637378978886,"isDelivery":false,"isRead":true,"timestamps":[1637378973826]}}}
+{"envelope":{"source":"+12247230113","sourceNumber":"+12247230113","sourceUuid":"f06e4fc2-34a3-4820-a706-35d32eceb69e","sourceName":"Jonas Owen","sourceDevice":1,"timestamp":1637378978863,"receiptMessage":{"when":1637378978863,"isDelivery":true,"isRead":false,"timestamps":[1637378973826]}}}
+{"envelope":{"source":"+18472715832","sourceNumber":"+18472715832","sourceUuid":"91d24822-6d0d-4c72-b9de-c6987a958724","sourceName":"Matt Carter","sourceDevice":1,"timestamp":1637378983203,"receiptMessage":{"when":1637378983203,"isDelivery":false,"isRead":true,"timestamps":[1637378973826]}}}
+{"envelope":{"source":"+18472715832","sourceNumber":"+18472715832","sourceUuid":"91d24822-6d0d-4c72-b9de-c6987a958724","sourceName":"Matt Carter","sourceDevice":1,"timestamp":1637378996097,"dataMessage":{"timestamp":1637378996097,"message":"What about it?","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+12245780974","sourceNumber":"+12245780974","sourceUuid":"64fa33dc-a206-4357-afee-d96daaa99354","sourceName":"Roshan","sourceDevice":1,"timestamp":1637378998955,"dataMessage":{"timestamp":1637378998955,"message":"I’m still just testing","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+12245780974","sourceNumber":"+12245780974","sourceUuid":"64fa33dc-a206-4357-afee-d96daaa99354","sourceName":"Roshan","sourceDevice":1,"timestamp":1637379026658,"dataMessage":{"timestamp":1637379026658,"message":"But that’s pretty sweet, thanks for the number Carter","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379030583,"receiptMessage":{"when":1637379030583,"isDelivery":false,"isRead":true,"timestamps":[1637378973826]}}}
+{"envelope":{"source":"+18472715832","sourceNumber":"+18472715832","sourceUuid":"91d24822-6d0d-4c72-b9de-c6987a958724","sourceName":"Matt Carter","sourceDevice":1,"timestamp":1637379031401,"dataMessage":{"timestamp":1637379031401,"message":"I understand. So am i","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379031713,"receiptMessage":{"when":1637379031713,"isDelivery":false,"isRead":true,"timestamps":[1637378973826]}}}
+{"envelope":{"source":"+12247230113","sourceNumber":"+12247230113","sourceUuid":"f06e4fc2-34a3-4820-a706-35d32eceb69e","sourceName":"Jonas Owen","sourceDevice":1,"timestamp":1637379038951,"receiptMessage":{"when":1637379038951,"isDelivery":false,"isRead":true,"timestamps":[1637378973826]}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379052342}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379052297,"dataMessage":{"timestamp":1637379052297,"message":null,"expiresInSeconds":0,"viewOnce":false,"reaction":{"emoji":"😂","targetAuthor":"+17342378793","targetAuthorNumber":"+17342378793","targetAuthorUuid":"69fcf7bb-142c-4d93-b7ac-2ae64cf57705","targetSentTimestamp":1637378973826,"isRemove":false},"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18472715832","sourceNumber":"+18472715832","sourceUuid":"91d24822-6d0d-4c72-b9de-c6987a958724","sourceName":"Matt Carter","sourceDevice":1,"timestamp":1637379058403,"dataMessage":{"timestamp":1637379058403,"message":"🐋💦","expiresInSeconds":0,"viewOnce":false,"quote":{"id":1637379026658,"author":"+12245780974","authorNumber":"+12245780974","authorUuid":"64fa33dc-a206-4357-afee-d96daaa99354","text":"But that’s pretty sweet, thanks for the number Carter","attachments":[]},"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18472715832","sourceNumber":"+18472715832","sourceUuid":"91d24822-6d0d-4c72-b9de-c6987a958724","sourceName":"Matt Carter","sourceDevice":1,"timestamp":1637379105949,"dataMessage":{"timestamp":1637379105949,"message":"What's the current research on ivermectin?","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379137965,"receiptMessage":{"when":1637379137965,"isDelivery":false,"isRead":true,"timestamps":[1637378973826]}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379154622}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379154577,"dataMessage":{"timestamp":1637379154577,"message":null,"expiresInSeconds":0,"viewOnce":false,"reaction":{"emoji":"😂","targetAuthor":"+17342378793","targetAuthorNumber":"+17342378793","targetAuthorUuid":"69fcf7bb-142c-4d93-b7ac-2ae64cf57705","targetSentTimestamp":1637378973826,"isRemove":false},"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379177452,"dataMessage":{"timestamp":1637379177452,"message":"Rachel didn't know what ivermectin was until just now","expiresInSeconds":0,"viewOnce":false,"quote":{"id":1637379105949,"author":"+18472715832","authorNumber":"+18472715832","authorUuid":"91d24822-6d0d-4c72-b9de-c6987a958724","text":"What's the current research on ivermectin?","attachments":[]},"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379182276,"dataMessage":{"timestamp":1637379182276,"message":null,"expiresInSeconds":0,"viewOnce":false,"reaction":{"emoji":"😮","targetAuthor":"+16308999196","targetAuthorNumber":"+16308999196","targetAuthorUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","targetSentTimestamp":1637379177452,"isRemove":false},"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379225335,"dataMessage":{"timestamp":1637379225335,"message":"I'm fucking pumped about this","expiresInSeconds":0,"viewOnce":false,"quote":{"id":1637378973826,"author":"+17342378793","authorNumber":"+17342378793","authorUuid":"69fcf7bb-142c-4d93-b7ac-2ae64cf57705","text":"ivermectin","attachments":[]},"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379230058,"dataMessage":{"timestamp":1637379230058,"message":null,"expiresInSeconds":0,"viewOnce":false,"reaction":{"emoji":"👍🏼","targetAuthor":"+16308999196","targetAuthorNumber":"+16308999196","targetAuthorUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","targetSentTimestamp":1637379225335,"isRemove":false},"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379243066,"dataMessage":{"timestamp":1637379243066,"message":"What if j0ebot overtakes this group chate","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379245176,"dataMessage":{"timestamp":1637379245176,"message":"*chat","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379259430,"dataMessage":{"timestamp":1637379259430,"message":"Just sends 100s of antivaxx messages while we're asleep","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379259685,"receiptMessage":{"when":1637379259685,"isDelivery":true,"isRead":false,"timestamps":[1637379258618]}}}
+{"envelope":{"source":"+12245780974","sourceNumber":"+12245780974","sourceUuid":"64fa33dc-a206-4357-afee-d96daaa99354","sourceName":"Roshan","sourceDevice":1,"timestamp":1637379259532,"receiptMessage":{"when":1637379259532,"isDelivery":true,"isRead":false,"timestamps":[1637379258618]}}}
+{"envelope":{"source":"+18472715832","sourceNumber":"+18472715832","sourceUuid":"91d24822-6d0d-4c72-b9de-c6987a958724","sourceName":"Matt Carter","sourceDevice":1,"timestamp":1637379259413,"receiptMessage":{"when":1637379259413,"isDelivery":true,"isRead":false,"timestamps":[1637379258618]}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379259743,"receiptMessage":{"when":1637379259743,"isDelivery":false,"isRead":true,"timestamps":[1637379258618]}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379259915,"receiptMessage":{"when":1637379259915,"isDelivery":true,"isRead":false,"timestamps":[1637379258618]}}}
+{"envelope":{"source":"+12247230113","sourceNumber":"+12247230113","sourceUuid":"f06e4fc2-34a3-4820-a706-35d32eceb69e","sourceName":"Jonas Owen","sourceDevice":1,"timestamp":1637379260093,"receiptMessage":{"when":1637379260093,"isDelivery":true,"isRead":false,"timestamps":[1637379258618]}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":1,"timestamp":1637379261079,"receiptMessage":{"when":1637379261079,"isDelivery":true,"isRead":false,"timestamps":[1637379258618]}}}
+{"envelope":{"source":"+18472715832","sourceNumber":"+18472715832","sourceUuid":"91d24822-6d0d-4c72-b9de-c6987a958724","sourceName":"Matt Carter","sourceDevice":1,"timestamp":1637379262891,"receiptMessage":{"when":1637379262891,"isDelivery":false,"isRead":true,"timestamps":[1637379258618]}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379263133,"receiptMessage":{"when":1637379263133,"isDelivery":false,"isRead":true,"timestamps":[1637379258618]}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379263374,"dataMessage":{"timestamp":1637379263374,"message":null,"expiresInSeconds":0,"viewOnce":false,"reaction":{"emoji":"😂","targetAuthor":"+17342378793","targetAuthorNumber":"+17342378793","targetAuthorUuid":"69fcf7bb-142c-4d93-b7ac-2ae64cf57705","targetSentTimestamp":1637379258618,"isRemove":false},"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379266353,"dataMessage":{"timestamp":1637379266353,"message":null,"expiresInSeconds":0,"viewOnce":false,"reaction":{"emoji":"😂","targetAuthor":"+17342378793","targetAuthorNumber":"+17342378793","targetAuthorUuid":"69fcf7bb-142c-4d93-b7ac-2ae64cf57705","targetSentTimestamp":1637379258618,"isRemove":false},"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18472715832","sourceNumber":"+18472715832","sourceUuid":"91d24822-6d0d-4c72-b9de-c6987a958724","sourceName":"Matt Carter","sourceDevice":1,"timestamp":1637379279177,"dataMessage":{"timestamp":1637379279177,"message":null,"expiresInSeconds":0,"viewOnce":false,"quote":{"id":1637379177452,"author":"+16308999196","authorNumber":"+16308999196","authorUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","text":"Rachel didn't know what ivermectin was until just now","attachments":[]},"mentions":[],"attachments":[{"contentType":"image/jpeg","filename":null,"id":"ZKup6irQjiZOu3Sm4JWa","size":47445}],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+12245780974","sourceNumber":"+12245780974","sourceUuid":"64fa33dc-a206-4357-afee-d96daaa99354","sourceName":"Roshan","sourceDevice":1,"timestamp":1637379283131,"receiptMessage":{"when":1637379283131,"isDelivery":false,"isRead":true,"timestamps":[1637379258618]}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379285114,"dataMessage":{"timestamp":1637379285114,"message":"Nah he'll just repeat ivermectin apparently","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379290915,"dataMessage":{"timestamp":1637379290915,"message":null,"expiresInSeconds":0,"viewOnce":false,"reaction":{"emoji":"😂","targetAuthor":"+18472715832","targetAuthorNumber":"+18472715832","targetAuthorUuid":"91d24822-6d0d-4c72-b9de-c6987a958724","targetSentTimestamp":1637379279177,"isRemove":false},"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379290856,"dataMessage":{"timestamp":1637379290856,"message":"j0ebot is just Roshan typing \"ivermectin\" every so often","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+12247230113","sourceNumber":"+12247230113","sourceUuid":"f06e4fc2-34a3-4820-a706-35d32eceb69e","sourceName":"Jonas Owen","sourceDevice":1,"timestamp":1637379307054,"receiptMessage":{"when":1637379307054,"isDelivery":false,"isRead":true,"timestamps":[1637379258618]}}}
+{"envelope":{"source":"+12247230113","sourceNumber":"+12247230113","sourceUuid":"f06e4fc2-34a3-4820-a706-35d32eceb69e","sourceName":"Jonas Owen","sourceDevice":1,"timestamp":1637379310416}}
+{"envelope":{"source":"+12247230113","sourceNumber":"+12247230113","sourceUuid":"f06e4fc2-34a3-4820-a706-35d32eceb69e","sourceName":"Jonas Owen","sourceDevice":1,"timestamp":1637379310359,"dataMessage":{"timestamp":1637379310359,"message":null,"expiresInSeconds":0,"viewOnce":false,"reaction":{"emoji":"😂","targetAuthor":"+17342378793","targetAuthorNumber":"+17342378793","targetAuthorUuid":"69fcf7bb-142c-4d93-b7ac-2ae64cf57705","targetSentTimestamp":1637379258618,"isRemove":false},"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18472715832","sourceNumber":"+18472715832","sourceUuid":"91d24822-6d0d-4c72-b9de-c6987a958724","sourceName":"Matt Carter","sourceDevice":1,"timestamp":1637379323907,"dataMessage":{"timestamp":1637379323907,"message":"Still passing, actually","expiresInSeconds":0,"viewOnce":false,"quote":{"id":1637379290856,"author":"+18159886002","authorNumber":"+18159886002","authorUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","text":"j0ebot is just Roshan typing \"ivermectin\" every so often","attachments":[]},"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379394609,"dataMessage":{"timestamp":1637379394609,"message":"￼  is going to become an expert in AI from this. Just hire me when you need a PM","expiresInSeconds":0,"viewOnce":false,"mentions":[{"name":"+12245780974","number":"+12245780974","uuid":"64fa33dc-a206-4357-afee-d96daaa99354","start":0,"length":1}],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379420105,"dataMessage":{"timestamp":1637379420105,"message":"Or CFO. I'll do that too","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18472715832","sourceNumber":"+18472715832","sourceUuid":"91d24822-6d0d-4c72-b9de-c6987a958724","sourceName":"Matt Carter","sourceDevice":1,"timestamp":1637379420078,"dataMessage":{"timestamp":1637379420078,"message":"The job pays in NFTs","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18472715832","sourceNumber":"+18472715832","sourceUuid":"91d24822-6d0d-4c72-b9de-c6987a958724","sourceName":"Matt Carter","sourceDevice":1,"timestamp":1637379500105,"dataMessage":{"timestamp":1637379500105,"message":"I learned that i should have stopped at overpaid electrician","expiresInSeconds":0,"viewOnce":false,"quote":{"id":1637379420105,"author":"+16308999196","authorNumber":"+16308999196","authorUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","text":"Or CFO. I'll do that too","attachments":[]},"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379550924,"dataMessage":{"timestamp":1637379550924,"message":"I'm back at the point of misery in my job that I just want to do something I'd enjoy","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379560392,"dataMessage":{"timestamp":1637379560392,"message":"Or not hate","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379587649,"dataMessage":{"timestamp":1637379587649,"message":"You should start your own defense contractor","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379598069,"dataMessage":{"timestamp":1637379598069,"message":"Take on the big guys","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379619830,"dataMessage":{"timestamp":1637379619830,"message":null,"expiresInSeconds":0,"viewOnce":false,"reaction":{"emoji":"👍🏼","targetAuthor":"+18159886002","targetAuthorNumber":"+18159886002","targetAuthorUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","targetSentTimestamp":1637379587649,"isRemove":false},"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379622234,"dataMessage":{"timestamp":1637379622234,"message":"A 3 year old asking why you go to work and other job related why's can fuck up your psyche","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379659123,"dataMessage":{"timestamp":1637379659123,"message":"you have no idea how much I'd love to. I joke about that with one of my co-workers because we're so bloated and bad","expiresInSeconds":0,"viewOnce":false,"quote":{"id":1637379587649,"author":"+18159886002","authorNumber":"+18159886002","authorUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","text":"You should start your own defense contractor","attachments":[]},"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379737862,"dataMessage":{"timestamp":1637379737862,"message":null,"expiresInSeconds":0,"viewOnce":false,"reaction":{"emoji":"👍🏼","targetAuthor":"+16308999196","targetAuthorNumber":"+16308999196","targetAuthorUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","targetSentTimestamp":1637379622234,"isRemove":false},"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379775925,"dataMessage":{"timestamp":1637379775925,"message":"If these guys did it, you can too","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379777170,"dataMessage":{"timestamp":1637379777170,"message":null,"expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[{"contentType":"image/jpeg","filename":"image.jpg","id":"208254028336390885","size":176413}],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379782696,"dataMessage":{"timestamp":1637379782696,"message":null,"expiresInSeconds":0,"viewOnce":false,"reaction":{"emoji":"😂","targetAuthor":"+18159886002","targetAuthorNumber":"+18159886002","targetAuthorUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","targetSentTimestamp":1637379777170,"isRemove":false},"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379811338,"dataMessage":{"timestamp":1637379811338,"message":"Great movie","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+16308999196","sourceNumber":"+16308999196","sourceUuid":"f2ac7614-a07f-46ee-8703-cb7ed2293840","sourceName":"Maximus Schwanebeck","sourceDevice":1,"timestamp":1637379818564,"dataMessage":{"timestamp":1637379818564,"message":"Fucking wild story","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379906216,"dataMessage":{"timestamp":1637379906216,"message":"Yeah, for real","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":2,"timestamp":1637379938497,"dataMessage":{"timestamp":1637379938497,"message":"I'll be your lawyer if you decide to be a gun runner","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=","type":"DELIVER"}}}}
+'>
+I, [2021-11-19T21:59:14.734054 #33567]  INFO -- : messages: true
+I, [2021-11-19T22:00:48.594024 #33735]  INFO -- : J0ebot#receive
+E, [2021-11-19T22:00:56.936172 #33735] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:00:56.936655 #33735] ERROR -- : #<JSON::ParserError: 783: unexpected token at ''>
+I, [2021-11-19T22:00:56.936681 #33735]  INFO -- : messages: true
+I, [2021-11-19T22:01:01.941997 #33735]  INFO -- : J0ebot#receive
+E, [2021-11-19T22:01:08.770737 #33735] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:01:08.771269 #33735] ERROR -- : #<JSON::ParserError: 783: unexpected token at ''>
+I, [2021-11-19T22:01:08.771287 #33735]  INFO -- : messages: true
+I, [2021-11-19T22:01:13.776496 #33735]  INFO -- : J0ebot#receive
+E, [2021-11-19T22:01:19.202476 #33735] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:01:19.202958 #33735] ERROR -- : #<JSON::ParserError: 783: unexpected token at ''>
+I, [2021-11-19T22:01:19.202975 #33735]  INFO -- : messages: true
+I, [2021-11-19T22:01:24.208206 #33735]  INFO -- : J0ebot#receive
+E, [2021-11-19T22:01:30.764648 #33735] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:01:30.765284 #33735] ERROR -- : #<JSON::ParserError: 783: unexpected token at ''>
+I, [2021-11-19T22:01:30.765310 #33735]  INFO -- : messages: true
+I, [2021-11-19T22:01:35.770501 #33735]  INFO -- : J0ebot#receive
+E, [2021-11-19T22:01:43.465242 #33735] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:01:43.465880 #33735] ERROR -- : #<JSON::ParserError: 783: unexpected token at ''>
+I, [2021-11-19T22:01:43.465896 #33735]  INFO -- : messages: true
+I, [2021-11-19T22:01:48.471102 #33735]  INFO -- : J0ebot#receive
+E, [2021-11-19T22:01:54.484252 #33735] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:01:54.484705 #33735] ERROR -- : #<JSON::ParserError: 783: unexpected token at ''>
+I, [2021-11-19T22:01:54.484721 #33735]  INFO -- : messages: true
+I, [2021-11-19T22:01:59.489960 #33735]  INFO -- : J0ebot#receive
+E, [2021-11-19T22:02:07.641257 #33735] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:02:07.641711 #33735] ERROR -- : #<JSON::ParserError: 783: unexpected token at ''>
+I, [2021-11-19T22:02:07.641730 #33735]  INFO -- : messages: true
+I, [2021-11-19T22:02:12.645037 #33735]  INFO -- : J0ebot#receive
+E, [2021-11-19T22:02:20.009984 #33735] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:02:20.010468 #33735] ERROR -- : #<JSON::ParserError: 783: unexpected token at ''>
+I, [2021-11-19T22:02:20.010486 #33735]  INFO -- : messages: true
+I, [2021-11-19T22:02:25.015959 #33735]  INFO -- : J0ebot#receive
+E, [2021-11-19T22:02:31.226832 #33735] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:02:31.227534 #33735] ERROR -- : #<JSON::ParserError: 783: unexpected token at ''>
+I, [2021-11-19T22:02:31.227558 #33735]  INFO -- : messages: true
+I, [2021-11-19T22:02:36.232739 #33735]  INFO -- : J0ebot#receive
+E, [2021-11-19T22:02:44.431321 #33735] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:02:44.432581 #33735] ERROR -- : #<JSON::ParserError: 783: unexpected token at ''>
+I, [2021-11-19T22:02:44.432608 #33735]  INFO -- : messages: true
+I, [2021-11-19T22:02:49.439241 #33735]  INFO -- : J0ebot#receive
+E, [2021-11-19T22:02:55.761210 #33735] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:02:55.761733 #33735] ERROR -- : #<JSON::ParserError: 783: unexpected token at ''>
+I, [2021-11-19T22:02:55.761751 #33735]  INFO -- : messages: true
+I, [2021-11-19T22:03:00.767649 #33735]  INFO -- : J0ebot#receive
+E, [2021-11-19T22:03:11.431071 #33735] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:03:11.431788 #33735] ERROR -- : #<JSON::ParserError: 783: unexpected token at ''>
+I, [2021-11-19T22:03:11.431812 #33735]  INFO -- : messages: true
+I, [2021-11-19T22:03:16.434825 #33735]  INFO -- : J0ebot#receive
+E, [2021-11-19T22:03:21.888660 #33735] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:03:21.889522 #33735] ERROR -- : #<JSON::ParserError: 783: unexpected token at ''>
+I, [2021-11-19T22:03:21.889550 #33735]  INFO -- : messages: true
+I, [2021-11-19T22:03:26.894817 #33735]  INFO -- : J0ebot#receive
+E, [2021-11-19T22:03:33.588945 #33735] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:03:33.589420 #33735] ERROR -- : #<JSON::ParserError: 783: unexpected token at ''>
+I, [2021-11-19T22:03:33.589441 #33735]  INFO -- : messages: true
+I, [2021-11-19T22:03:38.594604 #33735]  INFO -- : J0ebot#receive
+E, [2021-11-19T22:03:44.851842 #33735] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:03:44.852355 #33735] ERROR -- : #<JSON::ParserError: 783: unexpected token at ''>
+I, [2021-11-19T22:03:44.852373 #33735]  INFO -- : messages: true
+I, [2021-11-19T22:03:48.393678 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:03:57.026573 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:04:02.032488 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:04:08.421281 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:04:13.427003 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:04:19.427778 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:04:24.433620 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:04:31.291783 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:04:36.297440 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:04:42.870906 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:04:47.873205 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:04:53.055903 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:04:58.061820 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:05:03.886708 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:05:08.892320 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:05:15.533431 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:05:20.539119 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:05:27.057330 #34337]  INFO -- : messages: {"envelope"=>{"source"=>"+12245780974", "sourceNumber"=>"+12245780974", "sourceUuid"=>"64fa33dc-a206-4357-afee-d96daaa99354", "sourceName"=>"Roshan", "sourceDevice"=>1, "timestamp"=>1637381122950, "dataMessage"=>{"timestamp"=>1637381122950, "message"=>nil, "expiresInSeconds"=>0, "viewOnce"=>false, "mentions"=>[], "attachments"=>[], "contacts"=>[], "groupInfo"=>{"groupId"=>"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4=", "type"=>"UPDATE"}}}}
+I, [2021-11-19T22:05:32.062636 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:05:38.760452 #34337]  INFO -- : messages: {"envelope"=>{"source"=>"+12245780974", "sourceNumber"=>"+12245780974", "sourceUuid"=>"64fa33dc-a206-4357-afee-d96daaa99354", "sourceName"=>"Roshan", "sourceDevice"=>1, "timestamp"=>1637381132978, "dataMessage"=>{"timestamp"=>1637381132978, "message"=>"￼ hey", "expiresInSeconds"=>0, "viewOnce"=>false, "mentions"=>[{"name"=>"+17342378793", "number"=>"+17342378793", "uuid"=>"69fcf7bb-142c-4d93-b7ac-2ae64cf57705", "start"=>0, "length"=>1}], "attachments"=>[], "contacts"=>[], "groupInfo"=>{"groupId"=>"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4=", "type"=>"DELIVER"}}}}
+I, [2021-11-19T22:05:43.765684 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:05:49.551653 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:05:54.557446 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:06:00.144007 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:06:05.149881 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:06:12.121053 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:06:17.126847 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:06:23.656009 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:06:28.662049 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:06:34.847536 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:06:39.853395 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:06:45.433858 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:06:50.440180 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:06:55.952981 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:07:00.959309 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:07:06.525856 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:07:11.531866 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:07:17.376708 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:07:22.382676 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:07:28.765040 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:07:33.771457 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:07:39.100915 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:07:44.107084 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:07:52.475492 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:07:57.481213 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:08:02.641303 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:08:07.646532 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:08:13.625158 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:08:18.630871 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:08:28.133101 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:08:33.138905 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:08:40.586705 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:08:45.592896 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:08:51.014109 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:08:56.020045 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:09:03.795633 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:09:08.796927 #34337]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:09:14.251629 #34337]  INFO -- : messages: nil
+I, [2021-11-19T22:10:55.388635 #35865]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:11:01.065003 #35865]  INFO -- : message: nil
+I, [2021-11-19T22:11:28.721492 #35918]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:11:33.983061 #35918]  INFO -- : message: {"envelope"=>{"source"=>"+12245780974", "sourceNumber"=>"+12245780974", "sourceUuid"=>"64fa33dc-a206-4357-afee-d96daaa99354", "sourceName"=>"Roshan", "sourceDevice"=>1, "timestamp"=>1637381464724, "dataMessage"=>{"timestamp"=>1637381464724, "message"=>"Blah", "expiresInSeconds"=>0, "viewOnce"=>false, "mentions"=>[], "attachments"=>[], "contacts"=>[], "groupInfo"=>{"groupId"=>"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4=", "type"=>"DELIVER"}}}}
+I, [2021-11-19T22:11:38.988657 #35918]  INFO -- : J0ebot#receive
+E, [2021-11-19T22:11:47.141566 #35918] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:11:47.141669 #35918] ERROR -- : #<JSON::ParserError: 783: unexpected token at '{"envelope":{"source":"+12245780974","sourceNumber":"+12245780974","sourceUuid":"64fa33dc-a206-4357-afee-d96daaa99354","sourceName":"Roshan","sourceDevice":1,"timestamp":1637381501601,"dataMessage":{"timestamp":1637381501601,"message":"B","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4=","type":"DELIVER"}}}}
+'>
+I, [2021-11-19T22:11:47.141695 #35918]  INFO -- : message: nil
+I, [2021-11-19T22:11:52.146943 #35918]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:11:57.513113 #35918]  INFO -- : message: nil
+I, [2021-11-19T22:12:02.518834 #35918]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:12:07.700738 #35918]  INFO -- : message: nil
+I, [2021-11-19T22:12:12.706538 #35918]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:12:18.482999 #35918]  INFO -- : message: nil
+I, [2021-11-19T22:12:23.489251 #35918]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:12:29.516878 #35918]  INFO -- : message: nil
+I, [2021-11-19T22:12:34.519616 #35918]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:12:36.938442 #36193]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:12:43.105719 #36193]  INFO -- : received: ""
+I, [2021-11-19T22:12:43.106191 #36193]  INFO -- : message: nil
+I, [2021-11-19T22:12:48.111486 #36193]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:12:56.142463 #36193]  INFO -- : received: "{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637381563775,\"dataMessage\":{\"timestamp\":1637381563775,\"message\":\"A\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637381564633,\"dataMessage\":{\"timestamp\":1637381564633,\"message\":\"B\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4=\",\"type\":\"DELIVER\"}}}}\n"
+E, [2021-11-19T22:12:56.143095 #36193] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:12:56.143125 #36193] ERROR -- : #<JSON::ParserError: 783: unexpected token at '{"envelope":{"source":"+12245780974","sourceNumber":"+12245780974","sourceUuid":"64fa33dc-a206-4357-afee-d96daaa99354","sourceName":"Roshan","sourceDevice":1,"timestamp":1637381564633,"dataMessage":{"timestamp":1637381564633,"message":"B","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4=","type":"DELIVER"}}}}
+'>
+I, [2021-11-19T22:12:56.143150 #36193]  INFO -- : message: nil
+I, [2021-11-19T22:13:01.148334 #36193]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:13:07.706839 #36193]  INFO -- : received: ""
+I, [2021-11-19T22:13:07.707277 #36193]  INFO -- : message: nil
+I, [2021-11-19T22:13:12.712487 #36193]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:13:18.449540 #36193]  INFO -- : received: ""
+I, [2021-11-19T22:13:18.449956 #36193]  INFO -- : message: nil
+I, [2021-11-19T22:13:23.455179 #36193]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:13:29.513120 #36193]  INFO -- : received: ""
+I, [2021-11-19T22:13:29.513353 #36193]  INFO -- : message: nil
+I, [2021-11-19T22:13:34.518639 #36193]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:13:41.805208 #36193]  INFO -- : received: ""
+I, [2021-11-19T22:13:41.805647 #36193]  INFO -- : message: nil
+I, [2021-11-19T22:13:46.810852 #36193]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:13:52.339407 #36193]  INFO -- : received: ""
+I, [2021-11-19T22:13:52.339968 #36193]  INFO -- : message: nil
+I, [2021-11-19T22:13:57.345254 #36193]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:14:05.134194 #36193]  INFO -- : received: ""
+I, [2021-11-19T22:14:05.134750 #36193]  INFO -- : message: nil
+I, [2021-11-19T22:14:10.140217 #36193]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:14:15.398766 #36193]  INFO -- : received: ""
+I, [2021-11-19T22:14:15.399202 #36193]  INFO -- : message: nil
+I, [2021-11-19T22:14:20.404434 #36193]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:14:26.393150 #36193]  INFO -- : received: ""
+I, [2021-11-19T22:14:26.393725 #36193]  INFO -- : message: nil
+I, [2021-11-19T22:14:31.398966 #36193]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:14:36.861368 #36193]  INFO -- : received: ""
+I, [2021-11-19T22:14:36.861995 #36193]  INFO -- : message: nil
+I, [2021-11-19T22:14:41.867223 #36193]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:14:48.504363 #36193]  INFO -- : received: ""
+I, [2021-11-19T22:14:48.505381 #36193]  INFO -- : message: nil
+I, [2021-11-19T22:14:53.281320 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:15:01.879227 #36593]  INFO -- : received: "{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637381696661,\"typingMessage\":{\"action\":\"STARTED\",\"timestamp\":1637381696661,\"groupId\":\"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4=\"}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637381697200,\"dataMessage\":{\"timestamp\":1637381697200,\"message\":\"A\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637381697671,\"typingMessage\":{\"action\":\"STARTED\",\"timestamp\":1637381697671,\"groupId\":\"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4=\"}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637381698117,\"dataMessage\":{\"timestamp\":1637381698117,\"message\":\"B\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4=\",\"type\":\"DELIVER\"}}}}"
+E, [2021-11-19T22:15:01.879991 #36593] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:15:01.880042 #36593] ERROR -- : #<JSON::ParserError: 783: unexpected token at '{"envelope":{"source":"+12245780974","sourceNumber":"+12245780974","sourceUuid":"64fa33dc-a206-4357-afee-d96daaa99354","sourceName":"Roshan","sourceDevice":1,"timestamp":1637381697200,"dataMessage":{"timestamp":1637381697200,"message":"A","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4=","type":"DELIVER"}}}}
+{"envelope":{"source":"+12245780974","sourceNumber":"+12245780974","sourceUuid":"64fa33dc-a206-4357-afee-d96daaa99354","sourceName":"Roshan","sourceDevice":1,"timestamp":1637381697671,"typingMessage":{"action":"STARTED","timestamp":1637381697671,"groupId":"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4="}}}
+{"envelope":{"source":"+12245780974","sourceNumber":"+12245780974","sourceUuid":"64fa33dc-a206-4357-afee-d96daaa99354","sourceName":"Roshan","sourceDevice":1,"timestamp":1637381698117,"dataMessage":{"timestamp":1637381698117,"message":"B","expiresInSeconds":0,"viewOnce":false,"mentions":[],"attachments":[],"contacts":[],"groupInfo":{"groupId":"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4=","type":"DELIVER"}}}}'>
+I, [2021-11-19T22:15:01.880111 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:15:06.885609 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:15:13.852839 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:15:13.853324 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:15:18.858528 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:15:26.015348 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:15:26.016305 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:15:31.021509 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:15:36.038516 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:15:36.039598 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:15:41.040922 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:15:47.167127 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:15:47.167573 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:15:52.172842 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:15:58.724542 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:15:58.725488 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:16:03.730175 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:16:10.151648 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:16:10.152487 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:16:15.157705 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:16:20.726275 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:16:20.727193 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:16:25.732403 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:16:31.933246 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:16:31.934094 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:16:36.939295 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:16:45.384096 #36593]  INFO -- : received: "{\"envelope\":{\"source\":\"+18159886002\",\"sourceNumber\":\"+18159886002\",\"sourceUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"sourceName\":\"Michael\",\"sourceDevice\":3,\"timestamp\":1637381799329,\"receiptMessage\":{\"when\":1637381799329,\"isDelivery\":true,\"isRead\":false,\"timestamps\":[1637378973826]}}}\n{\"envelope\":{\"source\":\"+18159886002\",\"sourceNumber\":\"+18159886002\",\"sourceUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"sourceName\":\"Michael\",\"sourceDevice\":3,\"timestamp\":1637381800695,\"receiptMessage\":{\"when\":1637381800695,\"isDelivery\":true,\"isRead\":false,\"timestamps\":[1637379258618]}}}"
+E, [2021-11-19T22:16:45.385263 #36593] ERROR -- : Failed to run command: receive
+E, [2021-11-19T22:16:45.385289 #36593] ERROR -- : #<JSON::ParserError: 783: unexpected token at '{"envelope":{"source":"+18159886002","sourceNumber":"+18159886002","sourceUuid":"cf24122d-0db2-4d3b-bfd9-635eda38a9e1","sourceName":"Michael","sourceDevice":3,"timestamp":1637381800695,"receiptMessage":{"when":1637381800695,"isDelivery":true,"isRead":false,"timestamps":[1637379258618]}}}'>
+I, [2021-11-19T22:16:45.385307 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:16:50.390511 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:16:56.866073 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:16:56.866648 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:17:01.871821 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:17:07.724489 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:17:07.725087 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:17:12.730284 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:17:18.190717 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:17:18.191503 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:17:23.196679 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:17:29.489293 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:17:29.489911 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:17:34.491765 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:17:40.770928 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:17:40.772507 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:17:45.777711 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:17:53.038944 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:17:53.040504 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:17:58.045712 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:18:04.778513 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:18:04.779476 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:18:09.784222 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:18:16.010358 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:18:16.011064 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:18:21.016066 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:18:28.044253 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:18:28.044981 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:18:33.050212 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:18:42.162453 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:18:42.162969 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:18:47.168274 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:18:54.144770 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:18:54.145737 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:18:59.150930 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:19:04.517527 #36593]  INFO -- : received: ""
+I, [2021-11-19T22:19:04.518694 #36593]  INFO -- : message: nil
+I, [2021-11-19T22:19:09.521767 #36593]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:19:11.284185 #37322]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:19:21.904881 #37322]  INFO -- : received: "{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637381956432,\"typingMessage\":{\"action\":\"STARTED\",\"timestamp\":1637381956432,\"groupId\":\"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4=\"}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637381957059,\"dataMessage\":{\"timestamp\":1637381957059,\"message\":\"A\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637381957487,\"typingMessage\":{\"action\":\"STARTED\",\"timestamp\":1637381957487,\"groupId\":\"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4=\"}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637381957971,\"dataMessage\":{\"timestamp\":1637381957971,\"message\":\"B\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4=\",\"type\":\"DELIVER\"}}}}"
+I, [2021-11-19T22:21:23.711729 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:21:23.711751 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:21:31.125284 #37504]  INFO -- : output : "{\"envelope\":{\"source\":\"+18475083319\",\"sourceNumber\":\"+18475083319\",\"sourceUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"sourceName\":\"Krishnan Warrior\",\"sourceDevice\":1,\"timestamp\":1637382030679,\"receiptMessage\":{\"when\":1637382030679,\"isDelivery\":true,\"isRead\":false,\"timestamps\":[1637378973826,1637379258618]}}}\n{\"envelope\":{\"source\":\"+18475083319\",\"sourceNumber\":\"+18475083319\",\"sourceUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"sourceName\":\"Krishnan Warrior\",\"sourceDevice\":1,\"timestamp\":1637382056064,\"receiptMessage\":{\"when\":1637382056064,\"isDelivery\":false,\"isRead\":true,\"timestamps\":[1637378973826]}}}\n{\"envelope\":{\"source\":\"+18475083319\",\"sourceNumber\":\"+18475083319\",\"sourceUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"sourceName\":\"Krishnan Warrior\",\"sourceDevice\":1,\"timestamp\":1637382061580}}\n{\"envelope\":{\"source\":\"+18475083319\",\"sourceNumber\":\"+18475083319\",\"sourceUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"sourceName\":\"Krishnan Warrior\",\"sourceDevice\":1,\"timestamp\":1637382061487,\"dataMessage\":{\"timestamp\":1637382061487,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"😂\",\"targetAuthor\":\"+17342378793\",\"targetAuthorNumber\":\"+17342378793\",\"targetAuthorUuid\":\"69fcf7bb-142c-4d93-b7ac-2ae64cf57705\",\"targetSentTimestamp\":1637378973826,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18475083319\",\"sourceNumber\":\"+18475083319\",\"sourceUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"sourceName\":\"Krishnan Warrior\",\"sourceDevice\":1,\"timestamp\":1637382070429,\"receiptMessage\":{\"when\":1637382070429,\"isDelivery\":false,\"isRead\":true,\"timestamps\":[1637379258618]}}}"
+I, [2021-11-19T22:21:36.131560 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:21:36.131668 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:21:41.880650 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:21:46.886417 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:21:46.886548 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:21:54.269254 #37504]  INFO -- : output : "{\"envelope\":{\"source\":\"+18475083319\",\"sourceNumber\":\"+18475083319\",\"sourceUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"sourceName\":\"Krishnan Warrior\",\"sourceDevice\":1,\"timestamp\":1637382102924,\"dataMessage\":{\"timestamp\":1637382102924,\"message\":\"Loved this one\",\"expiresInSeconds\":0,\"viewOnce\":false,\"quote\":{\"id\":1637379811338,\"author\":\"+16308999196\",\"authorNumber\":\"+16308999196\",\"authorUuid\":\"f2ac7614-a07f-46ee-8703-cb7ed2293840\",\"text\":\"Great movie\",\"attachments\":[]},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18475083319\",\"sourceNumber\":\"+18475083319\",\"sourceUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"sourceName\":\"Krishnan Warrior\",\"sourceDevice\":1,\"timestamp\":1637382110743,\"typingMessage\":{\"action\":\"STARTED\",\"timestamp\":1637382110743,\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\"}}}"
+I, [2021-11-19T22:21:59.275279 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:21:59.275584 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:22:08.582794 #37504]  INFO -- : output : "{\"envelope\":{\"source\":\"+18475083319\",\"sourceNumber\":\"+18475083319\",\"sourceUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"sourceName\":\"Krishnan Warrior\",\"sourceDevice\":1,\"timestamp\":1637382124646,\"dataMessage\":{\"timestamp\":1637382124646,\"message\":\"I am loving j0ebot so far. Just random ivermectin drop ins\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}"
+I, [2021-11-19T22:22:13.588593 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:22:13.588728 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:22:19.558233 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:22:24.563961 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:22:24.564092 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:22:31.449200 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:22:36.454874 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:22:36.455000 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:22:43.350489 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:22:48.356385 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:22:48.356521 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:22:55.562968 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:23:00.568597 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:23:00.568723 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:23:07.149567 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:23:12.155201 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:23:12.155271 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:23:19.132337 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:23:24.138943 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:23:24.139079 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:23:29.847474 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:23:34.854142 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:23:34.854271 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:23:40.057576 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:23:45.060145 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:23:45.060282 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:23:55.835094 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:24:00.841476 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:24:00.841639 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:24:07.512823 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:24:12.514604 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:24:12.514726 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:24:20.077798 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:24:25.080666 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:24:25.080786 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:24:33.654189 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:24:38.657140 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:24:38.657302 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:24:44.197265 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:24:49.202836 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:24:49.202982 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:24:54.491908 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:24:59.493405 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:24:59.493494 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:25:06.999381 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:25:12.004698 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:25:12.004751 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:25:17.639973 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:25:22.645219 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:25:22.645282 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:25:31.682905 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:25:36.688142 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:25:36.688196 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:25:44.354389 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:25:49.359797 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:25:49.359937 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:25:55.406017 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:26:00.411644 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:26:00.411837 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:26:07.038312 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:26:12.039388 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:26:12.039527 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:26:17.624485 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:26:22.630034 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:26:22.630153 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:26:28.012890 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:26:33.016426 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:26:33.016535 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:26:39.639434 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:26:44.643232 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:26:44.643307 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:26:49.905624 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:26:54.911098 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:26:54.911231 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:27:00.746020 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:27:05.751503 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:27:05.751636 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:27:11.963281 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:27:16.968496 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:27:16.968637 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:27:24.586891 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:27:29.588191 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:27:29.588324 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:27:36.487990 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:27:41.492708 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:27:41.493057 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:27:48.743094 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:27:53.746253 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:27:53.746379 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:28:00.101763 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:28:05.107262 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:28:05.107389 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:28:11.838887 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:28:16.841567 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:28:16.841665 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:28:22.163319 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:28:27.166167 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:28:27.166543 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:28:33.197028 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:28:38.202485 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:28:38.202612 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:28:44.143315 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:28:49.148601 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:28:49.148651 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:28:56.140749 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:29:01.146255 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:29:01.146381 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:29:06.323168 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:29:11.325158 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:29:11.325306 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:29:20.567712 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:29:25.573118 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:29:25.573254 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:29:32.000131 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:29:37.005459 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:29:37.005530 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:29:42.346486 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:29:47.352110 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:29:47.352249 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:29:53.397200 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:29:58.402629 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:29:58.402787 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:30:04.170067 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:30:09.173423 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:30:09.173535 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:30:16.417761 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:30:21.423252 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:30:21.423382 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:30:28.108718 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:30:33.114183 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:30:33.114313 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:30:39.990011 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:30:44.995387 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:30:44.995523 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:30:51.591075 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:30:56.596556 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:30:56.596688 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:31:02.038064 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:31:07.040319 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:31:07.040563 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:31:14.465431 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:31:19.469591 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:31:19.469731 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:31:28.152628 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:31:33.158151 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:31:33.158286 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:31:38.651733 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:31:43.657232 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:31:43.657390 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:31:49.157638 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:31:54.160441 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:31:54.160583 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:32:02.013977 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:32:07.019358 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:32:07.019498 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:32:12.938021 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:32:17.943421 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:32:17.943561 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:32:23.685903 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:32:28.691481 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:32:28.691616 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:32:35.215125 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:32:40.220507 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:32:40.220606 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:32:45.924841 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:32:50.930314 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:32:50.930452 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:32:59.789030 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:33:04.794478 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:33:04.794628 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:33:12.330868 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:33:17.336539 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:33:17.336672 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:33:24.868147 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:33:29.873734 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:33:29.873856 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:33:36.384653 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:33:41.391460 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:33:41.391637 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:33:47.303420 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:33:52.304678 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:33:52.304826 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:33:59.080431 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:34:04.085933 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:34:04.086053 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:34:11.664504 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:34:16.666453 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:34:16.666564 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:34:22.639844 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:34:27.641769 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:34:27.641906 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:34:35.374395 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:34:40.380012 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:34:40.380161 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:34:46.411855 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:34:51.417346 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:34:51.417474 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:34:58.947827 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:35:03.953336 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:35:03.953477 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:35:12.484310 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:35:17.489957 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:35:17.490084 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:35:22.869135 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:35:27.874639 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:35:27.874773 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:35:33.470689 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:35:38.476084 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:35:38.476173 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:35:44.610237 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:35:49.611989 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:35:49.612077 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:35:58.967269 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:36:03.972554 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:36:03.972583 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:36:10.005884 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:36:15.011499 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:36:15.011638 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:36:20.614420 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:36:25.619945 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:36:25.620077 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:36:31.111153 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:36:36.116693 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:36:36.116803 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:36:43.393326 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:36:48.398608 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:36:48.398630 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:36:54.523279 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:36:59.528790 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:36:59.528933 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:37:04.708627 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:37:09.714084 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:37:09.714226 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:37:15.492859 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:37:20.498457 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:37:20.498698 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:37:27.019428 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:37:32.024150 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:37:32.024217 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:37:37.555704 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:37:42.560856 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:37:42.560991 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:37:48.398856 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:37:53.404333 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:37:53.404484 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:37:58.974372 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:38:03.979870 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:38:03.979995 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:38:11.379671 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:38:16.385102 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:38:16.385182 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:38:22.456537 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:38:27.461206 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:38:27.461814 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:38:33.119269 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:38:38.124915 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:38:38.125072 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:38:44.190459 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:38:49.195966 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:38:49.196095 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:38:55.092344 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:39:00.097946 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:39:00.098058 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:39:06.363802 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:39:11.369336 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:39:11.369461 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:39:17.940519 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:39:22.944946 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:39:22.945082 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:39:28.730251 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:39:33.735790 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:39:33.735927 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:39:38.915779 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:39:43.921237 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:39:43.921331 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:39:51.478377 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:39:56.484079 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:39:56.484219 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:40:06.646171 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:40:11.651804 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:40:11.651932 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:40:17.907527 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:40:22.913044 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:40:22.913195 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:40:29.327892 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:40:34.329506 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:40:34.329643 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:40:39.627378 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:40:44.632075 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:40:44.632344 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:40:51.540562 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:40:56.546127 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:40:56.546262 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:41:03.710508 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:41:08.716121 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:41:08.716252 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:41:14.706407 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:41:19.712102 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:41:19.712296 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:41:25.122839 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:41:30.128420 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:41:30.128543 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:41:35.646301 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:41:40.651915 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:41:40.652053 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:41:47.261085 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:41:52.266553 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:41:52.266675 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:41:57.590871 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:42:02.593207 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:42:02.593285 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:42:09.016189 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:42:14.021621 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:42:14.021770 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:42:19.299472 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:42:24.305000 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:42:24.305150 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:42:30.399044 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:42:35.401390 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:42:35.401704 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:42:41.492725 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:42:46.493807 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:42:46.493944 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:42:53.771535 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:42:58.777307 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:42:58.777439 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:43:04.437117 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:43:09.442758 #37504]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:43:09.442891 #37504]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:43:18.765821 #37504]  INFO -- : output : ""
+I, [2021-11-19T22:43:22.315278 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:43:22.315307 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:43:28.955299 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:43:33.961081 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:43:33.961171 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:43:40.695773 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:43:45.701664 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:43:45.701799 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:43:51.542775 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:43:56.548641 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:43:56.548772 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:44:03.273834 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:44:08.280708 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:44:08.280888 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:44:15.926623 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:44:20.932603 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:44:20.932730 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:44:26.308155 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:44:31.314249 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:44:31.314381 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:44:37.524152 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:44:42.526015 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:44:42.526068 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:44:48.490557 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:44:53.496486 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:44:53.496561 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:44:59.828484 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:45:04.829480 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:45:04.829587 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:45:13.632387 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:45:18.638327 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:45:18.638466 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:45:23.863021 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:45:28.869092 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:45:28.869222 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:45:36.080646 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:45:41.087186 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:45:41.087334 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:45:47.099347 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:45:52.105238 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:45:52.105359 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:45:59.693571 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:46:04.699186 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:46:04.699330 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:46:13.174401 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:46:18.179954 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:46:18.180108 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:46:26.232126 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:46:31.233206 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:46:31.233297 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:46:36.607103 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:46:41.612600 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:46:41.612730 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:46:49.312298 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:46:54.317913 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:46:54.318013 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:47:01.168351 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:47:06.174102 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:47:06.174256 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:47:13.298959 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:47:18.304611 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:47:18.305119 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:47:25.115175 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:47:30.119855 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:47:30.119926 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:47:38.895272 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:47:43.899062 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:47:43.899922 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:47:49.868994 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:47:54.874643 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:47:54.874768 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:48:00.632468 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:48:05.637020 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:48:05.637079 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:48:11.675007 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:48:16.676705 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:48:16.676818 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:48:21.790967 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:48:26.796780 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:48:26.796919 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:48:32.031780 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:48:37.037541 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:48:37.037682 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:48:43.365431 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:48:48.371157 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:48:48.371294 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:48:59.582909 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:49:04.587811 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:49:04.587932 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:49:09.771283 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:49:14.776298 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:49:14.776444 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:49:20.379466 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:49:25.385312 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:49:25.385442 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:49:36.998505 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:49:42.001319 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:49:42.001534 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:49:47.862550 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:49:52.864614 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:49:52.864689 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:49:59.089443 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:50:04.091762 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:50:04.091885 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:50:09.766823 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:50:14.772784 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:50:14.772931 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:50:23.106287 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:50:28.110058 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:50:28.110196 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:50:33.702490 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:50:38.708129 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:50:38.708243 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:50:44.425306 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:50:49.431081 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:50:49.431207 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:50:59.122748 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:51:04.128419 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:51:04.128548 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:51:11.911438 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:51:16.917303 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:51:16.917450 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:51:23.060996 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:51:28.066366 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:51:28.066607 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:51:33.603592 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:51:38.609315 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:51:38.609463 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:51:46.663717 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:51:51.668183 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:51:51.668264 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:51:56.964012 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:52:01.965759 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:52:01.965896 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:52:07.730394 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:52:12.736314 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:52:12.736396 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:52:20.997275 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:52:26.002809 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:52:26.003107 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:52:32.745637 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:52:37.751296 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:52:37.751448 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:52:43.057889 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:52:48.063709 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:52:48.063854 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:52:54.191092 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:52:59.193076 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:52:59.193319 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:53:04.958934 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:53:09.959859 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:53:09.960010 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:53:16.303539 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:53:21.309261 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:53:21.309395 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:53:27.217799 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:53:32.223637 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:53:32.223770 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:53:38.160435 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:53:43.162373 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:53:43.162486 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:53:48.552488 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:53:53.558074 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:53:53.558197 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:54:00.824030 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:54:05.828906 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:54:05.829028 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:54:10.881794 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:54:15.887383 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:54:15.887466 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:54:21.192915 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:54:26.195052 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:54:26.195185 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:54:32.841367 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:54:37.847315 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:54:37.847436 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:54:43.645593 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:54:48.647682 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:54:48.647814 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:54:55.369199 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:55:00.371596 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:55:00.371733 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:55:06.007654 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:55:11.013378 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:55:11.013703 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:55:17.619151 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:55:22.621490 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:55:22.621623 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:55:28.632199 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:55:33.637768 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:55:33.637902 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:55:41.167618 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:55:46.173237 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:55:46.173364 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:55:52.053852 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:55:57.059495 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:55:57.059634 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:56:02.279469 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:56:07.285142 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:56:07.285417 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:56:12.673636 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:56:17.679234 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:56:17.679322 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:56:24.539974 #50463]  INFO -- : output : ""
+I, [2021-11-19T22:56:29.545718 #50463]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:56:29.545866 #50463]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:58:16.298626 #61441]  INFO -- : J0ebot#receive
+I, [2021-11-19T22:58:16.298639 #61441]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T22:58:24.729504 #61441]  INFO -- : output : ""
+I, [2021-11-19T23:00:51.273918 #62052]  INFO -- : J0ebot#receive
+I, [2021-11-19T23:00:51.273924 #62052]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T23:00:56.764983 #62052]  INFO -- : output : ""
+I, [2021-11-19T23:01:53.442725 #62247]  INFO -- : J0ebot#receive
+I, [2021-11-19T23:01:53.442736 #62247]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T23:02:03.089108 #62247]  INFO -- : output : ""
+I, [2021-11-19T23:02:08.347152 #62247]  INFO -- : J0ebot#receive
+I, [2021-11-19T23:02:08.347302 #62247]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-19T23:02:14.194768 #62247]  INFO -- : output : ""

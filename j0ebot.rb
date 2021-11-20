@@ -1,8 +1,28 @@
-require "json"
-require "csv"
-require "pry"
+require 'json'
+require 'logger'
+require './lib/multi_i_o'
 
-class Data
+class History
+  attr_accessor :logger
+
+  def initialize(file_path)
+    @history = File.file?(file_path) ? File.read(file_path).split("\n").map { |line| JSON.parse(line) } : []
+    @storage = File.open(file_path, 'a')
+    @logger = Logger.new(STDOUT)
+    logger.info "Loaded #{@history.length} messages into history."
+  end
+
+  def push(message)
+    @storage.write message.to_json
+    @history.push message
+  end
+
+  def conversation_context
+    @history.last(5)
+  end
+end
+
+class J0ebot
   NUMBERS_TO_NAME = {
     '+12192994442' => 'Joe',
     '+12245780974' => 'Roshan',
@@ -20,33 +40,89 @@ class Data
     '64fa33dc-a206-4357-afee-d96daaa99354' => 'Roshan',
     'ac875429-1624-40c7-925c-731fe43d3cf7' => 'Frank'
   }
+  J0EBOT_NUMBER = '+17342378793'
+  LOGPATH = './j0ebot.log'
+  HISTORY_PATH = File.join(".", "data", "messages.jsonl")
+  GROUPS = {
+    id: 'x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=',
+    name: '- Qanon',
+  }
 
-  def self.load
-    rows = CSV.read("./schmitty.csv")
-    rows[1..-1].map do |row|
-      message = JSON.parse(row[2])
-      number = message["source"]
-      uuid = message["sourceUuid"]
-      type = message["type"]
-      next unless ["incoming", "outgoing"].include?(type)
+  attr_reader :number
+  attr_reader :logger
+  attr_reader :message_logger
+  attr_reader :history
 
-      message["source_name"] = 'Schmitty' if type == "outgoing"
-      message["source_name"] ||= NUMBERS_TO_NAME[number]
-      message["source_name"] ||= UUID_TO_NAME[uuid]
+  def initialize(number = J0EBOT_NUMBER)
+    @number = number
+    @logger = Logger.new(MultiIO.new(STDOUT, File.open(LOGPATH, "a")))
+    @history = History.new(HISTORY_PATH)
+    @openai = OpenAI::Client.new(access_token: ENV["OPENAI_API_KEY"])
+  end
 
-      if !message["source_name"]
-        binding.pry
+  def listen
+    loop do
+      puts "Pulse..."
+      receive.each do |message|
+        source = UUID_TO_NAME[message["envelope"]["sourceUuid"]]
+        body = message["envelope"]["dataMessage"]
+        mentioned = body["envelope"]["dataMessage"]["mentions"]
       end
-      message
+      sleep 5
     end
   end
+
+  def receive
+    logger.info "J0ebot#receive"
+    messages = run("receive")
+    response = openai.completions(engine: "davinci", parameters: { prompt: "Once upon a time", max_tokens: 5 })
+    puts response.inspect
+
+    messages.each do |message|
+      if message.is_a? Hash
+        message_logger.info message.to_json
+        @history << message
+      end
+    end
+  end
+
+  def send(message, group_id: nil, number: nil)
+    logger.info "J0ebot#send message='#{message}' group_id=#{group_id} number=#{number}"
+
+    if group_id && number
+      logger.error 'must provide only group_id or number, not both'
+      return
+    end
+
+    if group_id
+      run("send -m '#{message}' -g #{group_id}")
+      return
+    end
+
+    run("send -m '#{message}' #{number}")
+  end
+
+  def groups
+    logger.info "J0ebot#groups"
+    @groups ||= run("listGroups")
+    logger.info "groups: #{@groups.inspect}"
+    @groups
+  end
+
+  private
+
+  def run(command)
+    logger.info "J0ebot#run command='#{command}'"
+    output = `signal-cli -o json -u '#{number}' #{command}`.strip
+    logger.info "output : #{output.inspect}"
+    output.split("\n").map{|line| JSON.parse(line) }
+  rescue => e
+    logger.error "Failed to run command: #{command}"
+    logger.error e.inspect
+    nil
+  end
+
+  def openai
+    @openai
+  end
 end
-
-messages = Data.load
-formatted = messages.filter {|m| m && m["source_name"] }.map do |message|
-  log = "#{message["source_name"]}: #{message["body"]}"
-  { prompt: '', completion: log }.to_json
-end
-
-
-File.write("group-chat.jsonl", formatted.join("\n"))
