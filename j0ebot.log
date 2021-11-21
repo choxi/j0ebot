@@ -3241,3 +3241,881 @@ I, [2021-11-20T13:46:53.826934 #71400]  INFO -- : >>> GPT-3
 I, [2021-11-20T13:46:53.826993 #71400]  INFO -- : Jonas: Schmitty, Jonas, Roshan, Max, Joe, Krishnan, Frank 
 Schmitty: Can Jonas be Joe, Schmitty be Jonas, Krishnan be Joe, Joe be Krishnan, Max be Jonas, Roshan be Jonas, Krishnan be Schmitty, Krishnan be Max, Max be Roshan, Roshan be Krishnan, Krishnan be Frank, Krishnan be Jonas, Jonas be Max, Jonas be Sch
 I, [2021-11-20T13:46:53.827017 #71400]  INFO -- : Saving state...
+I, [2021-11-20T17:09:35.431050 #57976]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:09:35.431060 #57976]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:09:43.869928 #57976]  INFO -- : output : "{\"envelope\":{\"source\":\"+12247230113\",\"sourceNumber\":\"+12247230113\",\"sourceUuid\":\"f06e4fc2-34a3-4820-a706-35d32eceb69e\",\"sourceName\":\"Jonas Owen\",\"sourceDevice\":1,\"timestamp\":1637434062720,\"dataMessage\":{\"timestamp\":1637434062720,\"message\":\"So is it always running and you see a bunch of things it says and just some come through?\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18472715832\",\"sourceNumber\":\"+18472715832\",\"sourceUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"sourceName\":\"Matt Carter\",\"sourceDevice\":1,\"timestamp\":1637444568319,\"receiptMessage\":{\"when\":1637444568319,\"isDelivery\":false,\"isRead\":true,\"timestamps\":[1637426625812]}}}\n{\"envelope\":{\"source\":\"+18472715832\",\"sourceNumber\":\"+18472715832\",\"sourceUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"sourceName\":\"Matt Carter\",\"sourceDevice\":1,\"timestamp\":1637444580191,\"dataMessage\":{\"timestamp\":1637444580191,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"😂\",\"targetAuthor\":\"+17342378793\",\"targetAuthorNumber\":\"+17342378793\",\"targetAuthorUuid\":\"69fcf7bb-142c-4d93-b7ac-2ae64cf57705\",\"targetSentTimestamp\":1637426625812,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637448251503,\"dataMessage\":{\"timestamp\":1637448251503,\"message\":\"yeah it's basically always trying to \\\"predict\\\" what people will say next, but most of the time it doesn't predict Joe says anything. the stuff it predicts for us is pretty funny too though\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637448291225,\"dataMessage\":{\"timestamp\":1637448291225,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[{\"contentType\":\"image/jpeg\",\"filename\":\"signal-2021-11-20-164451.jpeg\",\"id\":\"dYhAXVAzm9_VUnejsKho\",\"size\":90318}],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637448326744,\"dataMessage\":{\"timestamp\":1637448326744,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[{\"contentType\":\"image/jpeg\",\"filename\":\"signal-2021-11-20-164526.jpeg\",\"id\":\"OeFY_I1yyipNMorWXDpx\",\"size\":83690}],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18159886002\",\"sourceNumber\":\"+18159886002\",\"sourceUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"sourceName\":\"Michael\",\"sourceDevice\":1,\"timestamp\":1637448372851,\"dataMessage\":{\"timestamp\":1637448372851,\"message\":\"Holy shit. Hahaha\",\"expiresInSeconds\":0,\"viewOnce\":false,\"quote\":{\"id\":1637448291225,\"author\":\"+12245780974\",\"authorNumber\":\"+12245780974\",\"authorUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"text\":\"\",\"attachments\":[{\"contentType\":\"image/jpeg\",\"filename\":\"signal-2021-11-20-164451.jpeg\",\"thumbnail\":{\"contentType\":\"image/jpeg\",\"filename\":\"quoted-thumbnail-signal-2021-11-20-164451.jpeg.jpg\",\"id\":\"XIadHw-YJU0AG8GI1z8X\",\"size\":11860}}]},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18159886002\",\"sourceNumber\":\"+18159886002\",\"sourceUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"sourceName\":\"Michael\",\"sourceDevice\":1,\"timestamp\":1637448421070,\"dataMessage\":{\"timestamp\":1637448421070,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"😂\",\"targetAuthor\":\"+12245780974\",\"targetAuthorNumber\":\"+12245780974\",\"targetAuthorUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"targetSentTimestamp\":1637448326744,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18472715832\",\"sourceNumber\":\"+18472715832\",\"sourceUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"sourceName\":\"Matt Carter\",\"sourceDevice\":1,\"timestamp\":1637448424007,\"dataMessage\":{\"timestamp\":1637448424007,\"message\":\"￼ you're a real dick\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[{\"name\":\"+18159886002\",\"number\":\"+18159886002\",\"uuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"start\":0,\"length\":1}],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18159886002\",\"sourceNumber\":\"+18159886002\",\"sourceUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"sourceName\":\"Michael\",\"sourceDevice\":1,\"timestamp\":1637448428259,\"dataMessage\":{\"timestamp\":1637448428259,\"message\":\"These are so good\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18475083319\",\"sourceNumber\":\"+18475083319\",\"sourceUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"sourceName\":\"Krishnan Warrior\",\"sourceDevice\":1,\"timestamp\":1637448463754,\"dataMessage\":{\"timestamp\":1637448463754,\"message\":\"Lmao\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18475083319\",\"sourceNumber\":\"+18475083319\",\"sourceUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"sourceName\":\"Krishnan Warrior\",\"sourceDevice\":1,\"timestamp\":1637448513157,\"dataMessage\":{\"timestamp\":1637448513157,\"message\":\"Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637448645473,\"dataMessage\":{\"timestamp\":1637448645473,\"message\":\"Yeah exactly\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12247230113\",\"sourceNumber\":\"+12247230113\",\"sourceUuid\":\"f06e4fc2-34a3-4820-a706-35d32eceb69e\",\"sourceName\":\"Jonas Owen\",\"sourceDevice\":1,\"timestamp\":1637448934566,\"dataMessage\":{\"timestamp\":1637448934566,\"message\":\"wow. Harsh\",\"expiresInSeconds\":0,\"viewOnce\":false,\"quote\":{\"id\":1637448326744,\"author\":\"+12245780974\",\"authorNumber\":\"+12245780974\",\"authorUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"text\":\"\",\"attachments\":[{\"contentType\":\"image/jpeg\",\"filename\":\"signal-2021-11-20-164526.jpeg\",\"thumbnail\":{\"contentType\":\"image/jpeg\",\"filename\":\"quoted-thumbnail-signal-2021-11-20-164526.jpeg.jpg\",\"id\":\"-2JzIwjwyoM1xiO0XPYi\",\"size\":12126}}]},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+16308999196\",\"sourceNumber\":\"+16308999196\",\"sourceUuid\":\"f2ac7614-a07f-46ee-8703-cb7ed2293840\",\"sourceName\":\"Maximus Schwanebeck\",\"sourceDevice\":1,\"timestamp\":1637449244115,\"dataMessage\":{\"timestamp\":1637449244115,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"😂\",\"targetAuthor\":\"+12245780974\",\"targetAuthorNumber\":\"+12245780974\",\"targetAuthorUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"targetSentTimestamp\":1637448291225,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+16308999196\",\"sourceNumber\":\"+16308999196\",\"sourceUuid\":\"f2ac7614-a07f-46ee-8703-cb7ed2293840\",\"sourceName\":\"Maximus Schwanebeck\",\"sourceDevice\":1,\"timestamp\":1637449276496,\"dataMessage\":{\"timestamp\":1637449276496,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"😂\",\"targetAuthor\":\"+12245780974\",\"targetAuthorNumber\":\"+12245780974\",\"targetAuthorUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"targetSentTimestamp\":1637448326744,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637449291479,\"dataMessage\":{\"timestamp\":1637449291479,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"👍\",\"targetAuthor\":\"+12247230113\",\"targetAuthorNumber\":\"+12247230113\",\"targetAuthorUuid\":\"f06e4fc2-34a3-4820-a706-35d32eceb69e\",\"targetSentTimestamp\":1637448934566,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637449309156,\"dataMessage\":{\"timestamp\":1637449309156,\"message\":\"Yeah Schmittbot is a dick for some reason\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}"
+I, [2021-11-20T17:10:05.609464 #58041]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:10:05.609472 #58041]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:10:12.503797 #58041]  INFO -- : output : ""
+I, [2021-11-20T17:10:25.486790 #58098]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:10:25.486799 #58098]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:10:31.981205 #58098]  INFO -- : output : ""
+I, [2021-11-20T17:10:31.983734 #58098]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T17:10:31.985078 #58098]  INFO -- : >>> PROMPT
+I, [2021-11-20T17:10:31.985120 #58098]  INFO -- : 
+The following is a funny group chat transcript between seven adult friends who met in high school. Their names are Joe, Schmitty, Jonas, Krishnan, Roshan, Max, Matt, and Frank.
+Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He does not like Schmitty.
+
+Here are some examples of things Joe says:
+
+Joe: You can be pro vaccine and still be anti-vax passports.
+Joe: Or forced vaccination for that matter
+Joe: Why isn't natural immunity part of the discussion of mandating vaccinations? I'm pretty sure somebody who is 21 years old, healthy, and has already had covid is in a pretty good spot immunity wise
+Joe: If that policy went nationwide that is essentially forced vaccination. If you cannot go to any stores, restaurants, or public establishments and are essentially ostracized from society that is just as bad as forcing it.
+Joe: What is he "lying" about? Just because he has a different view than you doesn't mean he is lying.
+Joe: Yeah, those aren't the same thing at all
+Joe: You conveniently linked a 2 minute part of an hour long segment as if that's the only thing he's discussing.
+Joe: The point is, it's fair to argue that natural immunity is plenty sufficient.
+Joe: He's not claiming it has made the pandemic worse. He's claiming that it could make it worse due to breakthrough mutations that would effectively be a new virus requiring new vaccines and immunity.
+Joe: I'm going to go with 99.9914% of people with natural immunity haven't gotten reinfected is plenty high. Not to mention that I'm referring to young healthy people who don't regularly get severely ill from covid anyway and saying the risk profile of forgoing the vaccine seems reasonable
+Joe: Merely saying it's "baseless" isn't good enough
+Joe: Take the L, Schmitty
+Joe: How can you pump $1T into the economy and not have inflation? You're being ridiculous Schmitty
+
+Complete the transcript below. What would *Joe* say next?
+
+[11-20-2021 12:47 PM] Jonas Owen: So is it always running and you see a bunch of things it says and just some come through?
+[11-20-2021 04:44 PM] Roshan Choxi: yeah it's basically always trying to "predict" what people will say next, but most of the time it doesn't predict Joe says anything. the stuff it predicts for us is pretty funny too though
+[11-20-2021 04:46 PM] Michael Schmitt: Holy shit. Hahaha
+[11-20-2021 04:47 PM] : ￼ you're a real dick
+[11-20-2021 04:47 PM] Michael Schmitt: These are so good
+[11-20-2021 04:47 PM] Krishnan Warrior: Lmao
+[11-20-2021 04:48 PM] Krishnan Warrior: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+[11-20-2021 04:50 PM] Roshan Choxi: Yeah exactly
+[11-20-2021 04:55 PM] Jonas Owen: wow. Harsh
+[11-20-2021 05:01 PM] Roshan Choxi: Yeah Schmittbot is a dick for some reason
+
+I, [2021-11-20T17:11:32.966413 #58328]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:11:32.966428 #58328]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:11:38.485819 #58328]  INFO -- : output : ""
+I, [2021-11-20T17:11:38.488199 #58328]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T17:11:38.489525 #58328]  INFO -- : >>> PROMPT
+I, [2021-11-20T17:11:38.489545 #58328]  INFO -- : 
+The following is a funny group chat transcript between seven adult friends who met in high school. Their names are Joe, Schmitty, Jonas, Krishnan, Roshan, Max, Matt, and Frank.
+Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He does not like Schmitty.
+
+Here are some examples of things Joe says:
+
+Joe: You can be pro vaccine and still be anti-vax passports.
+Joe: Or forced vaccination for that matter
+Joe: Why isn't natural immunity part of the discussion of mandating vaccinations? I'm pretty sure somebody who is 21 years old, healthy, and has already had covid is in a pretty good spot immunity wise
+Joe: If that policy went nationwide that is essentially forced vaccination. If you cannot go to any stores, restaurants, or public establishments and are essentially ostracized from society that is just as bad as forcing it.
+Joe: What is he "lying" about? Just because he has a different view than you doesn't mean he is lying.
+Joe: Yeah, those aren't the same thing at all
+Joe: You conveniently linked a 2 minute part of an hour long segment as if that's the only thing he's discussing.
+Joe: The point is, it's fair to argue that natural immunity is plenty sufficient.
+Joe: He's not claiming it has made the pandemic worse. He's claiming that it could make it worse due to breakthrough mutations that would effectively be a new virus requiring new vaccines and immunity.
+Joe: I'm going to go with 99.9914% of people with natural immunity haven't gotten reinfected is plenty high. Not to mention that I'm referring to young healthy people who don't regularly get severely ill from covid anyway and saying the risk profile of forgoing the vaccine seems reasonable
+Joe: Merely saying it's "baseless" isn't good enough
+Joe: Take the L, Schmitty
+Joe: How can you pump $1T into the economy and not have inflation? You're being ridiculous Schmitty
+
+Complete the transcript below. What would *Joe* say next?
+
+[11-20-2021 12:47 PM] Jonas Owen: So is it always running and you see a bunch of things it says and just some come through?
+[11-20-2021 04:44 PM] Roshan Choxi: yeah it's basically always trying to "predict" what people will say next, but most of the time it doesn't predict Joe says anything. the stuff it predicts for us is pretty funny too though
+[11-20-2021 04:46 PM] Michael Schmitt: Holy shit. Hahaha
+[11-20-2021 04:47 PM] : ￼ you're a real dick
+[11-20-2021 04:47 PM] Michael Schmitt: These are so good
+[11-20-2021 04:47 PM] Krishnan Warrior: Lmao
+[11-20-2021 04:48 PM] Krishnan Warrior: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+[11-20-2021 04:50 PM] Roshan Choxi: Yeah exactly
+[11-20-2021 04:55 PM] Jonas Owen: wow. Harsh
+[11-20-2021 05:01 PM] Roshan Choxi: Yeah Schmittbot is a dick for some reason
+
+I, [2021-11-20T17:12:28.238667 #58328]  INFO -- : Saving state...
+I, [2021-11-20T17:12:35.300858 #58393]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:12:35.300871 #58393]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:12:42.142235 #58393]  INFO -- : output : ""
+I, [2021-11-20T17:12:42.144352 #58393]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T17:12:42.145309 #58393]  INFO -- : >>> PROMPT
+I, [2021-11-20T17:12:42.145325 #58393]  INFO -- : 
+The following is a funny group chat transcript between seven adult friends who met in high school. Their names are Joe, Schmitty, Jonas, Krishnan, Roshan, Max, Matt, and Frank.
+Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He does not like Schmitty.
+
+Here are some examples of things Joe says:
+
+Joe: You can be pro vaccine and still be anti-vax passports.
+Joe: Or forced vaccination for that matter
+Joe: Why isn't natural immunity part of the discussion of mandating vaccinations? I'm pretty sure somebody who is 21 years old, healthy, and has already had covid is in a pretty good spot immunity wise
+Joe: If that policy went nationwide that is essentially forced vaccination. If you cannot go to any stores, restaurants, or public establishments and are essentially ostracized from society that is just as bad as forcing it.
+Joe: What is he "lying" about? Just because he has a different view than you doesn't mean he is lying.
+Joe: Yeah, those aren't the same thing at all
+Joe: You conveniently linked a 2 minute part of an hour long segment as if that's the only thing he's discussing.
+Joe: The point is, it's fair to argue that natural immunity is plenty sufficient.
+Joe: He's not claiming it has made the pandemic worse. He's claiming that it could make it worse due to breakthrough mutations that would effectively be a new virus requiring new vaccines and immunity.
+Joe: I'm going to go with 99.9914% of people with natural immunity haven't gotten reinfected is plenty high. Not to mention that I'm referring to young healthy people who don't regularly get severely ill from covid anyway and saying the risk profile of forgoing the vaccine seems reasonable
+Joe: Merely saying it's "baseless" isn't good enough
+Joe: Take the L, Schmitty
+Joe: How can you pump $1T into the economy and not have inflation? You're being ridiculous Schmitty
+
+Complete the transcript below. What would *Joe* say next?
+
+[11-20-2021 12:47 PM] Jonas Owen: So is it always running and you see a bunch of things it says and just some come through?
+[11-20-2021 04:44 PM] Roshan Choxi: yeah it's basically always trying to "predict" what people will say next, but most of the time it doesn't predict Joe says anything. the stuff it predicts for us is pretty funny too though
+[11-20-2021 04:46 PM] Michael Schmitt: Holy shit. Hahaha
+[11-20-2021 04:47 PM] : ￼ you're a real dick
+[11-20-2021 04:47 PM] Michael Schmitt: These are so good
+[11-20-2021 04:47 PM] Krishnan Warrior: Lmao
+[11-20-2021 04:48 PM] Krishnan Warrior: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+[11-20-2021 04:50 PM] Roshan Choxi: Yeah exactly
+[11-20-2021 04:55 PM] Jonas Owen: wow. Harsh
+[11-20-2021 05:01 PM] Roshan Choxi: Yeah Schmittbot is a dick for some reason
+
+I, [2021-11-20T17:12:44.010672 #58393]  INFO -- : >>> GPT-3
+I, [2021-11-20T17:12:44.010796 #58393]  INFO -- : [11-20-2021 05:01 PM] Krishnan Warrior: Like what's the thought process there? That Joe is just trying to be a dick? Or is he just good expectant that Joe is going to be a dick and then afterwards Joe is just like "Bitch you're a dick" and just outlives it? Is Schmittbot actually an AI and Joe just doesn't know it's always been a bitch? Google is never going to reveal the truemeaning of
+I, [2021-11-20T17:12:44.010841 #58393]  INFO -- : Saving state...
+I, [2021-11-20T17:15:36.591377 #58669]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:15:36.591385 #58669]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:15:42.674052 #58669]  INFO -- : output : ""
+I, [2021-11-20T17:15:42.675471 #58669]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T17:15:42.675933 #58669]  INFO -- : >>> PROMPT
+I, [2021-11-20T17:15:42.675945 #58669]  INFO -- : 
+The following is a funny group chat transcript between seven adult friends who met in high school. Their names are Joe, Schmitty, Jonas, Krishnan, Roshan, Max, Matt, and Frank.
+Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He does not like Schmitty.
+
+Here are some examples of things Joe says:
+
+Joe: You can be pro vaccine and still be anti-vax passports.
+Joe: Or forced vaccination for that matter
+Joe: Why isn't natural immunity part of the discussion of mandating vaccinations? I'm pretty sure somebody who is 21 years old, healthy, and has already had covid is in a pretty good spot immunity wise
+Joe: If that policy went nationwide that is essentially forced vaccination. If you cannot go to any stores, restaurants, or public establishments and are essentially ostracized from society that is just as bad as forcing it.
+Joe: What is he "lying" about? Just because he has a different view than you doesn't mean he is lying.
+Joe: Yeah, those aren't the same thing at all
+Joe: You conveniently linked a 2 minute part of an hour long segment as if that's the only thing he's discussing.
+Joe: The point is, it's fair to argue that natural immunity is plenty sufficient.
+Joe: He's not claiming it has made the pandemic worse. He's claiming that it could make it worse due to breakthrough mutations that would effectively be a new virus requiring new vaccines and immunity.
+Joe: I'm going to go with 99.9914% of people with natural immunity haven't gotten reinfected is plenty high. Not to mention that I'm referring to young healthy people who don't regularly get severely ill from covid anyway and saying the risk profile of forgoing the vaccine seems reasonable
+Joe: Merely saying it's "baseless" isn't good enough
+Joe: Take the L, Schmitty
+Joe: How can you pump $1T into the economy and not have inflation? You're being ridiculous Schmitty
+
+Complete the transcript below. What would *Joe* say next?
+
+[11-20-2021 12:47 PM] Jonas Owen: So is it always running and you see a bunch of things it says and just some come through?
+[11-20-2021 04:44 PM] Roshan Choxi: yeah it's basically always trying to "predict" what people will say next, but most of the time it doesn't predict Joe says anything. the stuff it predicts for us is pretty funny too though
+[11-20-2021 04:46 PM] Michael Schmitt: Holy shit. Hahaha
+[11-20-2021 04:47 PM] Matt Carter: ￼ you're a real dick
+[11-20-2021 04:47 PM] Michael Schmitt: These are so good
+[11-20-2021 04:47 PM] Krishnan Warrior: Lmao
+[11-20-2021 04:48 PM] Krishnan Warrior: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+[11-20-2021 04:50 PM] Roshan Choxi: Yeah exactly
+[11-20-2021 04:55 PM] Jonas Owen: wow. Harsh
+[11-20-2021 05:01 PM] Roshan Choxi: Yeah Schmittbot is a dick for some reason
+
+I, [2021-11-20T17:15:44.700459 #58669]  INFO -- : >>> GPT-3
+I, [2021-11-20T17:15:44.700524 #58669]  INFO -- : [11-20-2021 05:45 PM] Jonas Owen: I have an interview tomorrow. I have 3.5 hours of Joe sounds on my drive there and 3.5 hours getting home so I have 
+I, [2021-11-20T17:15:44.700544 #58669]  INFO -- : Saving state...
+I, [2021-11-20T17:16:06.047625 #59136]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:16:06.047635 #59136]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:16:13.108848 #59136]  INFO -- : output : ""
+I, [2021-11-20T17:16:13.112529 #59136]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T17:16:13.114724 #59136]  INFO -- : >>> PROMPT
+I, [2021-11-20T17:16:13.114774 #59136]  INFO -- : 
+The following is a funny group chat transcript between seven adult friends who met in high school. Their names are Joe, Schmitty, Jonas, Krishnan, Roshan, Max, Matt, and Frank.
+Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He does not like Schmitty.
+
+Here are some examples of things Joe says:
+
+Joe: You can be pro vaccine and still be anti-vax passports.
+Joe: Or forced vaccination for that matter
+Joe: Why isn't natural immunity part of the discussion of mandating vaccinations? I'm pretty sure somebody who is 21 years old, healthy, and has already had covid is in a pretty good spot immunity wise
+Joe: If that policy went nationwide that is essentially forced vaccination. If you cannot go to any stores, restaurants, or public establishments and are essentially ostracized from society that is just as bad as forcing it.
+Joe: What is he "lying" about? Just because he has a different view than you doesn't mean he is lying.
+Joe: Yeah, those aren't the same thing at all
+Joe: You conveniently linked a 2 minute part of an hour long segment as if that's the only thing he's discussing.
+Joe: The point is, it's fair to argue that natural immunity is plenty sufficient.
+Joe: He's not claiming it has made the pandemic worse. He's claiming that it could make it worse due to breakthrough mutations that would effectively be a new virus requiring new vaccines and immunity.
+Joe: I'm going to go with 99.9914% of people with natural immunity haven't gotten reinfected is plenty high. Not to mention that I'm referring to young healthy people who don't regularly get severely ill from covid anyway and saying the risk profile of forgoing the vaccine seems reasonable
+Joe: Merely saying it's "baseless" isn't good enough
+Joe: Take the L, Schmitty
+Joe: How can you pump $1T into the economy and not have inflation? You're being ridiculous Schmitty
+
+Complete the transcript below. What would *Joe* say next?
+
+[11-20-2021 12:47 PM] Jonas Owen: So is it always running and you see a bunch of things it says and just some come through?
+[11-20-2021 04:44 PM] Roshan Choxi: yeah it's basically always trying to "predict" what people will say next, but most of the time it doesn't predict Joe says anything. the stuff it predicts for us is pretty funny too though
+[11-20-2021 04:46 PM] Michael Schmitt: Holy shit. Hahaha
+[11-20-2021 04:47 PM] Matt Carter: ￼ you're a real dick
+[11-20-2021 04:47 PM] Michael Schmitt: These are so good
+[11-20-2021 04:47 PM] Krishnan Warrior: Lmao
+[11-20-2021 04:48 PM] Krishnan Warrior: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+[11-20-2021 04:50 PM] Roshan Choxi: Yeah exactly
+[11-20-2021 04:55 PM] Jonas Owen: wow. Harsh
+[11-20-2021 05:01 PM] Roshan Choxi: Yeah Schmittbot is a dick for some reason
+
+I, [2021-11-20T17:16:15.333519 #59136]  INFO -- : >>> GPT-3
+I, [2021-11-20T17:16:15.333650 #59136]  INFO -- : [11-20-2021 05:14 PM] Jonas Owen: But what about evidence? Schmittbot: If you cannot go to any stores, restaurants, or public establishments and are essentially ostracized from society that is just as bad as forcing it Schmitt: What about evidence
+I, [2021-11-20T17:16:15.333690 #59136]  INFO -- : Saving state...
+I, [2021-11-20T17:19:27.879867 #59352]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:19:27.879881 #59352]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:19:33.842789 #59352]  INFO -- : output : ""
+I, [2021-11-20T17:19:33.845121 #59352]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T17:19:33.846523 #59352]  INFO -- : >>> PROMPT
+I, [2021-11-20T17:19:33.846549 #59352]  INFO -- : 
+The following is a funny group chat transcript between seven adult friends who met in high school. Their names are Joe, Schmitty, Jonas, Krishnan, Roshan, Max, Matt, and Frank.
+Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He does not like Schmitty.
+
+Here are some examples of things Joe says:
+
+Joe: You can be pro vaccine and still be anti-vax passports.
+Joe: Or forced vaccination for that matter
+Joe: Why isn't natural immunity part of the discussion of mandating vaccinations? I'm pretty sure somebody who is 21 years old, healthy, and has already had covid is in a pretty good spot immunity wise
+Joe: If that policy went nationwide that is essentially forced vaccination. If you cannot go to any stores, restaurants, or public establishments and are essentially ostracized from society that is just as bad as forcing it.
+Joe: What is he "lying" about? Just because he has a different view than you doesn't mean he is lying.
+Joe: Yeah, those aren't the same thing at all
+Joe: You conveniently linked a 2 minute part of an hour long segment as if that's the only thing he's discussing.
+Joe: The point is, it's fair to argue that natural immunity is plenty sufficient.
+Joe: He's not claiming it has made the pandemic worse. He's claiming that it could make it worse due to breakthrough mutations that would effectively be a new virus requiring new vaccines and immunity.
+Joe: I'm going to go with 99.9914% of people with natural immunity haven't gotten reinfected is plenty high. Not to mention that I'm referring to young healthy people who don't regularly get severely ill from covid anyway and saying the risk profile of forgoing the vaccine seems reasonable
+Joe: Merely saying it's "baseless" isn't good enough
+Joe: Take the L, Schmitty
+Joe: How can you pump $1T into the economy and not have inflation? You're being ridiculous Schmitty
+
+Complete the transcript below. What would *Joe* say next?
+
+[11-20-2021 12:47 PM] <Jonas Owen> So is it always running and you see a bunch of things it says and just some come through?
+[11-20-2021 04:44 PM] <Roshan Choxi> yeah it's basically always trying to "predict" what people will say next, but most of the time it doesn't predict Joe says anything. the stuff it predicts for us is pretty funny too though
+[11-20-2021 04:46 PM] <Michael Schmitt> Holy shit. Hahaha
+[11-20-2021 04:47 PM] <Matt Carter> ￼ you're a real dick
+[11-20-2021 04:47 PM] <Michael Schmitt> These are so good
+[11-20-2021 04:47 PM] <Krishnan Warrior> Lmao
+[11-20-2021 04:48 PM] <Krishnan Warrior> Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+[11-20-2021 04:50 PM] <Roshan Choxi> Yeah exactly
+[11-20-2021 04:55 PM] <Jonas Owen> wow. Harsh
+[11-20-2021 05:01 PM] <Roshan Choxi> Yeah Schmittbot is a dick for some reason
+
+I, [2021-11-20T17:19:36.043946 #59352]  INFO -- : >>> GPT-3
+I, [2021-11-20T17:19:36.044181 #59352]  INFO -- : [11-20-2021 05:09 PM] <Max coding> What did Joe say?
+I, [2021-11-20T17:19:36.044236 #59352]  INFO -- : Saving state...
+I, [2021-11-20T17:20:12.153812 #59490]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:20:12.153820 #59490]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:20:18.318633 #59490]  INFO -- : output : ""
+I, [2021-11-20T17:20:18.320653 #59490]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T17:20:18.321579 #59490]  INFO -- : >>> PROMPT
+I, [2021-11-20T17:20:18.321595 #59490]  INFO -- : 
+The following is a funny group chat transcript between seven adult friends who met in high school. Their names are Joe, Schmitty, Jonas, Krishnan, Roshan, Max, Matt, and Frank.
+Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He does not like Schmitty.
+
+Here are some examples of things Joe says:
+
+Joe: You can be pro vaccine and still be anti-vax passports.
+Joe: Or forced vaccination for that matter
+Joe: Why isn't natural immunity part of the discussion of mandating vaccinations? I'm pretty sure somebody who is 21 years old, healthy, and has already had covid is in a pretty good spot immunity wise
+Joe: If that policy went nationwide that is essentially forced vaccination. If you cannot go to any stores, restaurants, or public establishments and are essentially ostracized from society that is just as bad as forcing it.
+Joe: What is he "lying" about? Just because he has a different view than you doesn't mean he is lying.
+Joe: Yeah, those aren't the same thing at all
+Joe: You conveniently linked a 2 minute part of an hour long segment as if that's the only thing he's discussing.
+Joe: The point is, it's fair to argue that natural immunity is plenty sufficient.
+Joe: He's not claiming it has made the pandemic worse. He's claiming that it could make it worse due to breakthrough mutations that would effectively be a new virus requiring new vaccines and immunity.
+Joe: I'm going to go with 99.9914% of people with natural immunity haven't gotten reinfected is plenty high. Not to mention that I'm referring to young healthy people who don't regularly get severely ill from covid anyway and saying the risk profile of forgoing the vaccine seems reasonable
+Joe: Merely saying it's "baseless" isn't good enough
+Joe: Take the L, Schmitty
+Joe: How can you pump $1T into the economy and not have inflation? You're being ridiculous Schmitty
+
+Complete the transcript below. What would *Joe* say next?
+
+[11-20-2021 12:47 PM] <Jonas Owen> So is it always running and you see a bunch of things it says and just some come through?
+[11-20-2021 04:44 PM] <Roshan Choxi> yeah it's basically always trying to "predict" what people will say next, but most of the time it doesn't predict Joe says anything. the stuff it predicts for us is pretty funny too though
+[11-20-2021 04:46 PM] <Michael Schmitt> Holy shit. Hahaha
+[11-20-2021 04:47 PM] <Matt Carter> ￼ you're a real dick
+[11-20-2021 04:47 PM] <Michael Schmitt> These are so good
+[11-20-2021 04:47 PM] <Krishnan Warrior> Lmao
+[11-20-2021 04:48 PM] <Krishnan Warrior> Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+[11-20-2021 04:50 PM] <Roshan Choxi> Yeah exactly
+[11-20-2021 04:55 PM] <Jonas Owen> wow. Harsh
+[11-20-2021 05:01 PM] <Roshan Choxi> Yeah Schmittbot is a dick for some reason
+
+I, [2021-11-20T17:23:00.926395 #59490]  INFO -- : >>> GPT-3
+I, [2021-11-20T17:23:00.926478 #59490]  INFO -- : [11-20-2021 05:01 PM] <Krishnan Warrior> I understand the need to one upping and trying to be humorous
+I, [2021-11-20T17:23:00.926504 #59490]  INFO -- : Saving state...
+I, [2021-11-20T17:23:02.606905 #59719]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:23:02.606920 #59719]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:23:08.371430 #59719]  INFO -- : output : ""
+I, [2021-11-20T17:23:08.373722 #59719]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T17:23:08.374907 #59719]  INFO -- : >>> PROMPT
+I, [2021-11-20T17:23:08.374929 #59719]  INFO -- : 
+The following is a funny group chat transcript between seven adult friends who met in high school. Their names are Joe, Schmitty, Jonas, Krishnan, Roshan, Max, Matt, and Frank.
+Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He does not like Schmitty.
+
+Here are some examples of things Joe says:
+
+Joe: You can be pro vaccine and still be anti-vax passports.
+Joe: Or forced vaccination for that matter
+Joe: Why isn't natural immunity part of the discussion of mandating vaccinations? I'm pretty sure somebody who is 21 years old, healthy, and has already had covid is in a pretty good spot immunity wise
+Joe: If that policy went nationwide that is essentially forced vaccination. If you cannot go to any stores, restaurants, or public establishments and are essentially ostracized from society that is just as bad as forcing it.
+Joe: What is he "lying" about? Just because he has a different view than you doesn't mean he is lying.
+Joe: Yeah, those aren't the same thing at all
+Joe: You conveniently linked a 2 minute part of an hour long segment as if that's the only thing he's discussing.
+Joe: The point is, it's fair to argue that natural immunity is plenty sufficient.
+Joe: He's not claiming it has made the pandemic worse. He's claiming that it could make it worse due to breakthrough mutations that would effectively be a new virus requiring new vaccines and immunity.
+Joe: I'm going to go with 99.9914% of people with natural immunity haven't gotten reinfected is plenty high. Not to mention that I'm referring to young healthy people who don't regularly get severely ill from covid anyway and saying the risk profile of forgoing the vaccine seems reasonable
+Joe: Merely saying it's "baseless" isn't good enough
+Joe: Take the L, Schmitty
+Joe: How can you pump $1T into the economy and not have inflation? You're being ridiculous Schmitty
+
+Complete the transcript below. What would *Joe* say next?
+
+[11-20-2021 12:47 PM] Jonas Owen: So is it always running and you see a bunch of things it says and just some come through?
+[11-20-2021 04:44 PM] Roshan Choxi: yeah it's basically always trying to "predict" what people will say next, but most of the time it doesn't predict Joe says anything. the stuff it predicts for us is pretty funny too though
+[11-20-2021 04:46 PM] Michael Schmitt: Holy shit. Hahaha
+[11-20-2021 04:47 PM] Matt Carter: ￼ you're a real dick
+[11-20-2021 04:47 PM] Michael Schmitt: These are so good
+[11-20-2021 04:47 PM] Krishnan Warrior: Lmao
+[11-20-2021 04:48 PM] Krishnan Warrior: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+[11-20-2021 04:50 PM] Roshan Choxi: Yeah exactly
+[11-20-2021 04:55 PM] Jonas Owen: wow. Harsh
+[11-20-2021 05:01 PM] Roshan Choxi: Yeah Schmittbot is a dick for some reason
+
+I, [2021-11-20T17:28:26.538528 #59719]  INFO -- : >>> GPT-3
+I, [2021-11-20T17:28:26.538621 #59719]  INFO -- : [11-20-2021 05:01 PM] KrishnanWarrior: funny
+I, [2021-11-20T17:28:26.538651 #59719]  INFO -- : Saving state...
+I, [2021-11-20T17:28:27.884350 #60100]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:28:27.884360 #60100]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:28:33.412809 #60100]  INFO -- : output : ""
+I, [2021-11-20T17:28:33.415190 #60100]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T17:28:54.171889 #60199]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:28:54.171897 #60199]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:29:00.445421 #60199]  INFO -- : output : ""
+I, [2021-11-20T17:29:00.447435 #60199]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T17:29:00.449022 #60199]  INFO -- : >>> PROMPT
+I, [2021-11-20T17:29:00.449042 #60199]  INFO -- : 
+The following is a funny group chat transcript between seven adult friends who met in high school. Their names are Joe, Schmitty, Jonas, Krishnan, Roshan, Max, Matt, and Frank.
+Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He does not like Schmitty.
+
+Here are some examples of things Joe says:
+
+Joe: You can be pro vaccine and still be anti-vax passports.
+Joe: Or forced vaccination for that matter
+Joe: Why isn't natural immunity part of the discussion of mandating vaccinations? I'm pretty sure somebody who is 21 years old, healthy, and has already had covid is in a pretty good spot immunity wise
+Joe: If that policy went nationwide that is essentially forced vaccination. If you cannot go to any stores, restaurants, or public establishments and are essentially ostracized from society that is just as bad as forcing it.
+Joe: What is he "lying" about? Just because he has a different view than you doesn't mean he is lying.
+Joe: Yeah, those aren't the same thing at all
+Joe: You conveniently linked a 2 minute part of an hour long segment as if that's the only thing he's discussing.
+Joe: The point is, it's fair to argue that natural immunity is plenty sufficient.
+Joe: He's not claiming it has made the pandemic worse. He's claiming that it could make it worse due to breakthrough mutations that would effectively be a new virus requiring new vaccines and immunity.
+Joe: I'm going to go with 99.9914% of people with natural immunity haven't gotten reinfected is plenty high. Not to mention that I'm referring to young healthy people who don't regularly get severely ill from covid anyway and saying the risk profile of forgoing the vaccine seems reasonable
+Joe: Merely saying it's "baseless" isn't good enough
+Joe: Take the L, Schmitty
+Joe: How can you pump $1T into the economy and not have inflation? You're being ridiculous Schmitty
+
+Complete the transcript below. What would *Joe* say next?
+
+[11-20-2021 12:47 PM] Jonas Owen: So is it always running and you see a bunch of things it says and just some come through?
+[11-20-2021 04:44 PM] Roshan Choxi: yeah it's basically always trying to "predict" what people will say next, but most of the time it doesn't predict Joe says anything. the stuff it predicts for us is pretty funny too though
+[11-20-2021 04:46 PM] Michael Schmitt: Holy shit. Hahaha
+[11-20-2021 04:47 PM] Matt Carter: ￼ you're a real dick
+[11-20-2021 04:47 PM] Michael Schmitt: These are so good
+[11-20-2021 04:47 PM] Krishnan Warrior: Lmao
+[11-20-2021 04:48 PM] Krishnan Warrior: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+[11-20-2021 04:50 PM] Roshan Choxi: Yeah exactly
+[11-20-2021 04:55 PM] Jonas Owen: wow. Harsh
+[11-20-2021 05:01 PM] Roshan Choxi: Yeah Schmittbot is a dick for some reason. What do you think, Joe?
+
+I, [2021-11-20T17:31:31.037673 #60199]  INFO -- : >>> GPT-3
+I, [2021-11-20T17:31:31.037745 #60199]  INFO -- : [11-20-2021 05:07 PM] Joe Alfieri: He's not a real one of these people?
+I, [2021-11-20T17:31:31.037773 #60199]  INFO -- : Saving state...
+I, [2021-11-20T17:31:33.057778 #60375]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:31:33.057854 #60375]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:31:39.796175 #60375]  INFO -- : output : ""
+I, [2021-11-20T17:31:39.798175 #60375]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T17:31:39.799281 #60375]  INFO -- : >>> PROMPT
+I, [2021-11-20T17:31:39.799295 #60375]  INFO -- : 
+The following is a funny group chat between seven friends who met in high school. Their names are Joe, Schmitty, Jonas, Krishnan, Roshan, Max, Matt, and Frank.
+Joe Janiczek is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He does not like Schmitty.
+
+Complete the transcript below. What would *Joe Janiczek* say next?
+
+[11-20-2021 12:47 PM] Jonas Owen: So is it always running and you see a bunch of things it says and just some come through?
+[11-20-2021 04:44 PM] Roshan Choxi: yeah it's basically always trying to "predict" what people will say next, but most of the time it doesn't predict Joe says anything. the stuff it predicts for us is pretty funny too though
+[11-20-2021 04:46 PM] Michael Schmitt: Holy shit. Hahaha
+[11-20-2021 04:47 PM] Matt Carter: ￼ you're a real dick
+[11-20-2021 04:47 PM] Michael Schmitt: These are so good
+[11-20-2021 04:47 PM] Krishnan Warrior: Lmao
+[11-20-2021 04:48 PM] Krishnan Warrior: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+[11-20-2021 04:50 PM] Roshan Choxi: Yeah exactly
+[11-20-2021 04:55 PM] Jonas Owen: wow. Harsh
+[11-20-2021 05:01 PM] Roshan Choxi: Yeah Schmittbot is a dick for some reason. What do you think, Joe?
+
+I, [2021-11-20T17:54:38.514572 #60375]  INFO -- : >>> GPT-3
+I, [2021-11-20T17:54:38.514649 #60375]  INFO -- : Joe says that Jonas is a reference to be angry at Schmitty. Schmitty is a "dick" for being argumentative in a work environment. Jonas is a " ref " for being angry at Schmitty once Schmitty starts a joke. They were in a board meeting and Jonas "came" to Schmitty so Schmitty "got" angry. They quote that Schmitty then got angry in the board meeting. Jonas " wants Schmitty to be angry " Joe "energetically" talks about Schmitty in the board meeting in a way that's not in a " way that's not in board meeting " manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner manner ). And Jonas "coming" to Schmitty because Schmitty " got " angry at Jonas agains another Schmitty joke. Jonas knows
+I, [2021-11-20T17:54:38.514740 #60375]  INFO -- : Saving state...
+I, [2021-11-20T17:54:41.156428 #70959]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:54:41.156436 #70959]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:54:47.502800 #70959]  INFO -- : output : "{\"envelope\":{\"source\":\"+18475083319\",\"sourceNumber\":\"+18475083319\",\"sourceUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"sourceName\":\"Krishnan Warrior\",\"sourceDevice\":1,\"timestamp\":1637451769104,\"dataMessage\":{\"timestamp\":1637451769104,\"message\":\"It's trained on Schmitty so\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18472715832\",\"sourceNumber\":\"+18472715832\",\"sourceUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"sourceName\":\"Matt Carter\",\"sourceDevice\":1,\"timestamp\":1637451885438,\"dataMessage\":{\"timestamp\":1637451885438,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"👍\",\"targetAuthor\":\"+18475083319\",\"targetAuthorNumber\":\"+18475083319\",\"targetAuthorUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"targetSentTimestamp\":1637451769104,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18472715832\",\"sourceNumber\":\"+18472715832\",\"sourceUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"sourceName\":\"Matt Carter\",\"sourceDevice\":1,\"timestamp\":1637451913768,\"dataMessage\":{\"timestamp\":1637451913768,\"message\":\"Are the other bots always a consequence of training a single bot?\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}"
+I, [2021-11-20T17:54:47.505563 #70959]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T17:54:47.506728 #70959]  INFO -- : >>> PROMPT
+I, [2021-11-20T17:54:47.506769 #70959]  INFO -- : 
+The following is a funny group chat between seven friends who met in high school. Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. What would Joe say next?
+
+[11-20-2021 04:46 PM] Michael Schmitt: Holy shit. Hahaha
+[11-20-2021 04:47 PM] Matt Carter: ￼ you're a real dick
+[11-20-2021 04:47 PM] Michael Schmitt: These are so good
+[11-20-2021 04:47 PM] Krishnan Warrior: Lmao
+[11-20-2021 04:48 PM] Krishnan Warrior: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+[11-20-2021 04:50 PM] Roshan Choxi: Yeah exactly
+[11-20-2021 04:55 PM] Jonas Owen: wow. Harsh
+[11-20-2021 05:01 PM] Roshan Choxi: Yeah Schmittbot is a dick for some reason
+[11-20-2021 05:42 PM] Krishnan Warrior: It's trained on Schmitty so
+[11-20-2021 05:45 PM] Matt Carter: Are the other bots always a consequence of training a single bot?. What do you think, Joe?
+
+I, [2021-11-20T17:56:11.629383 #70959]  INFO -- : >>> GPT-3
+I, [2021-11-20T17:56:11.629444 #70959]  INFO -- : [11-20-2021 05:45 PM] Krishnan Warrior: You should start a Schmitt Airlines and start a Airlines of Schmitty (AoS)
+I, [2021-11-20T17:56:11.629464 #70959]  INFO -- : Saving state...
+I, [2021-11-20T17:56:14.464963 #71052]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:56:14.464973 #71052]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:56:20.899967 #71052]  INFO -- : output : ""
+I, [2021-11-20T17:56:20.901952 #71052]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T17:56:20.903162 #71052]  INFO -- : >>> PROMPT
+I, [2021-11-20T17:56:20.903184 #71052]  INFO -- : 
+The following is a funny group chat between seven friends who met in high school. Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. What would Joe say next?
+
+Michael Schmitt: Holy shit. Hahaha
+Matt Carter: ￼ you're a real dick
+Michael Schmitt: These are so good
+Krishnan Warrior: Lmao
+Krishnan Warrior: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+Roshan Choxi: Yeah exactly
+Jonas Owen: wow. Harsh
+Roshan Choxi: Yeah Schmittbot is a dick for some reason
+Krishnan Warrior: It's trained on Schmitty so
+Matt Carter: Are the other bots always a consequence of training a single bot?. What do you think, Joe?
+
+I, [2021-11-20T17:57:03.363470 #71052]  INFO -- : >>> GPT-3
+I, [2021-11-20T17:57:03.363580 #71052]  INFO -- : Representative Joe Schmitty: I don't train any other chatbots. I 2016 me 2016 me. I'm getting out the bots, get on my level man. represents! Roshan you're a lib, get on board Schmitty's train. Jonas you're a Google guy, get on Schmitty's train. Krishnan You're a Biden guy, get on Schmitty's Schmitty train. Carter you're a lib... tr... a... n... a... a... a... a... a... tr... a... a... a... a... a... a... a... a... a... a... a... a... a... a... a... a... a... a... a... a... libtard... 
+I, [2021-11-20T17:57:03.363606 #71052]  INFO -- : Saving state...
+I, [2021-11-20T17:57:05.882085 #71216]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:57:05.882094 #71216]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:57:12.112145 #71216]  INFO -- : output : ""
+I, [2021-11-20T17:57:12.114209 #71216]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T17:57:12.115410 #71216]  INFO -- : >>> PROMPT
+I, [2021-11-20T17:57:12.115441 #71216]  INFO -- : 
+The following is a funny group chat between seven friends who met in high school. Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. What would Joe say next?
+
+Michael: Holy shit. Hahaha
+Matt: ￼ you're a real dick
+Michael: These are so good
+Krishnan: Lmao
+Krishnan: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+Roshan: Yeah exactly
+Jonas: wow. Harsh
+Roshan: Yeah Schmittbot is a dick for some reason
+Krishnan: It's trained on Schmitty so
+Matt: Are the other bots always a consequence of training a single bot?. What do you think, Joe?
+
+I, [2021-11-20T17:58:26.815179 #71216]  INFO -- : >>> GPT-3
+I, [2021-11-20T17:58:26.815292 #71216]  INFO -- : Michael: Who? i don'tHaha Matt Who Ya Gonna grievances?Michael: Who? i don'tHaha Matt Who Ya Gonna grievances?Michael: Schmittbot Michael, just SchmittbotYou fucked up Joe, Joe fucked up Joe's gonna get youSchmittbotMichael, just SchmittbotYou fucked up Joe, Joe fucked up Joe's gonna get youSchmittbotMichael, just SchmittbotSchmittbotI didn't know Schmittbot had a brother SchmittbotSchmittbot what's going on here... Schmitt's schmitt'sSchmitt's going to schmitt going to Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt Schmitt SchmittSch
+I, [2021-11-20T17:58:26.815367 #71216]  INFO -- : Saving state...
+I, [2021-11-20T17:58:36.463990 #71432]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:58:36.464008 #71432]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:58:42.054354 #71432]  INFO -- : output : ""
+I, [2021-11-20T17:58:42.056684 #71432]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T17:58:42.057980 #71432]  INFO -- : >>> PROMPT
+I, [2021-11-20T17:58:42.057999 #71432]  INFO -- : 
+The following is a funny group chat between seven friends who met in high school. Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. What would Joe say next?
+
+Schmitty: Holy shit. Hahaha
+Schmitty: ￼ you're a real dick
+Schmitty: These are so good
+Schmitty: Lmao
+Schmitty: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+Schmitty: Yeah exactly
+Schmitty: wow. Harsh
+Schmitty: Yeah Schmittbot is a dick for some reason
+Schmitty: It's trained on Schmitty so
+Schmitty: Are the other bots always a consequence of training a single bot?. What do you think, Joe?
+
+I, [2021-11-20T17:58:51.219144 #71432]  INFO -- : >>> GPT-3
+I, [2021-11-20T17:58:51.219280 #71432]  INFO -- : Schmitty: ￼ it's a little bit biased but it doesn't make a lot of wrong assumptions. couldn't you rig up a more fair A/B testing framework using signal?
+I, [2021-11-20T17:58:51.219315 #71432]  INFO -- : Saving state...
+I, [2021-11-20T17:58:59.789068 #71496]  INFO -- : J0ebot#receive
+I, [2021-11-20T17:58:59.789077 #71496]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T17:59:05.244780 #71496]  INFO -- : output : ""
+I, [2021-11-20T17:59:05.249250 #71496]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T17:59:05.251660 #71496]  INFO -- : >>> PROMPT
+I, [2021-11-20T17:59:05.251832 #71496]  INFO -- : 
+The following is a funny group chat between seven friends who met in high school. Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. What would Joe say next?
+
+Schmitty: Holy shit. Hahaha
+Matt: ￼ you're a real dick
+Schmitty: These are so good
+Krishnan: Lmao
+Krishnan: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+Roshan: Yeah exactly
+Jonas: wow. Harsh
+Roshan: Yeah Schmittbot is a dick for some reason
+Krishnan: It's trained on Schmitty so
+Matt: Are the other bots always a consequence of training a single bot?. What do you think, Joe?
+
+I, [2021-11-20T18:02:05.101991 #71496]  INFO -- : >>> GPT-3
+I, [2021-11-20T18:02:05.102084 #71496]  INFO -- : Krishnan: barely read anything Schmittbot has ever said though so I'm not sure what that's all about?. Schmittbot is a real heads up thorobred though
+I, [2021-11-20T18:02:05.102115 #71496]  INFO -- : Saving state...
+I, [2021-11-20T18:02:07.524668 #71696]  INFO -- : J0ebot#receive
+I, [2021-11-20T18:02:07.524690 #71696]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T18:02:15.547666 #71696]  INFO -- : output : "{\"envelope\":{\"source\":\"+18159886002\",\"sourceNumber\":\"+18159886002\",\"sourceUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"sourceName\":\"Michael\",\"sourceDevice\":1,\"timestamp\":1637452824222,\"dataMessage\":{\"timestamp\":1637452824222,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"😢\",\"targetAuthor\":\"+18475083319\",\"targetAuthorNumber\":\"+18475083319\",\"targetAuthorUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"targetSentTimestamp\":1637451769104,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}"
+I, [2021-11-20T18:02:15.549942 #71696]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T18:02:15.551370 #71696]  INFO -- : >>> PROMPT
+I, [2021-11-20T18:02:15.551392 #71696]  INFO -- : 
+The following is a funny group chat between eight friends: Joe, Schmitty, Krishnan, Jonas, Max, Roshan, Matt, and Frank. Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. What would Joe say next?
+
+Schmitty: Holy shit. Hahaha
+Matt: ￼ you're a real dick
+Schmitty: These are so good
+Krishnan: Lmao
+Krishnan: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+Roshan: Yeah exactly
+Jonas: wow. Harsh
+Roshan: Yeah Schmittbot is a dick for some reason
+Krishnan: It's trained on Schmitty so
+Matt: Are the other bots always a consequence of training a single bot?. What do you think, Joe?
+
+I, [2021-11-20T18:02:19.291437 #71696]  INFO -- : >>> GPT-3
+I, [2021-11-20T18:02:19.291563 #71696]  INFO -- : Roshan: It's Schmittybot 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
+I, [2021-11-20T18:02:19.291636 #71696]  INFO -- : Saving state...
+I, [2021-11-20T18:04:10.443620 #71858]  INFO -- : J0ebot#receive
+I, [2021-11-20T18:04:10.443629 #71858]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T18:04:16.515902 #71858]  INFO -- : output : "{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637452983205,\"dataMessage\":{\"timestamp\":1637452983205,\"message\":\"Like is their one origin bot? Yeah\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637453020348,\"dataMessage\":{\"timestamp\":1637453020348,\"message\":\"I don’t know if it has a name, the architecture is called GPT-3\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}"
+I, [2021-11-20T18:04:16.518451 #71858]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T18:04:16.521794 #71858]  INFO -- : >>> PROMPT
+I, [2021-11-20T18:04:16.521824 #71858]  INFO -- : 
+The following is a funny group chat between eight friends: Joe, Schmitty, Krishnan, Jonas, Max, Roshan, Matt, and Frank. Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. What would Joe say next?
+
+Schmitty: These are so good
+Krishnan: Lmao
+Krishnan: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+Roshan: Yeah exactly
+Jonas: wow. Harsh
+Roshan: Yeah Schmittbot is a dick for some reason
+Krishnan: It's trained on Schmitty so
+Matt: Are the other bots always a consequence of training a single bot?
+Roshan: Like is their one origin bot? Yeah
+Roshan: I don’t know if it has a name, the architecture is called GPT-3. What do you think, Joe?
+
+I, [2021-11-20T18:04:20.192998 #71858]  INFO -- : >>> GPT-3
+I, [2021-11-20T18:04:20.193130 #71858]  INFO -- : Joe: Krishnan is always like this lol. Jonas is always  this. Schmittbot is always  this. Max is this. Krishnan is this.   Krishnan  Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Krishnan Krishnan Krishnan Krishnan Krishnan Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt
+I, [2021-11-20T18:04:20.193372 #71858]  INFO -- : joe statements: ["Joe: Krishnan is always like this lol. Jonas is always  this. Schmittbot is always  this. Max is this. Krishnan is this.   Krishnan  Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Krishnan Krishnan Krishnan Krishnan Krishnan Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt Jonas Max Schmitt"]}
+I, [2021-11-20T18:04:20.193473 #71858]  INFO -- : Saving state...
+I, [2021-11-20T18:09:58.821389 #81236]  INFO -- : J0ebot#receive
+I, [2021-11-20T18:09:58.821397 #81236]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T18:10:04.260255 #81236]  INFO -- : output : ""
+I, [2021-11-20T18:10:04.262746 #81236]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T18:10:04.266414 #81236]  INFO -- : >>> PROMPT
+I, [2021-11-20T18:10:04.266442 #81236]  INFO -- : 
+The following is a funny group chat between eight friends: Joe, Schmitty, Krishnan, Jonas, Max, Roshan, Matt, and Frank. Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. What would Joe say next?
+
+Schmitty: These are so good
+Krishnan: Lmao
+Krishnan: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+Roshan: Yeah exactly
+Jonas: wow. Harsh
+Roshan: Yeah Schmittbot is a dick for some reason
+Krishnan: It's trained on Schmitty so
+Matt: Are the other bots always a consequence of training a single bot?
+Roshan: Like is their one origin bot? Yeah
+Roshan: I don’t know if it has a name, the architecture is called GPT-3. What do you think, Joe?
+
+I, [2021-11-20T18:10:05.641445 #81236]  INFO -- : >>> GPT-3
+I, [2021-11-20T18:10:05.641499 #81236]  INFO -- : Krishnan: Lolol
+I, [2021-11-20T18:10:05.641510 #81236]  INFO -- : Saving state...
+I, [2021-11-20T18:20:05.649961 #81236]  INFO -- : J0ebot#receive
+I, [2021-11-20T18:20:05.650097 #81236]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T18:20:11.755741 #81236]  INFO -- : output : "{\"envelope\":{\"source\":\"+18472715832\",\"sourceNumber\":\"+18472715832\",\"sourceUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"sourceName\":\"Matt Carter\",\"sourceDevice\":1,\"timestamp\":1637453479118,\"dataMessage\":{\"timestamp\":1637453479118,\"message\":\"Well for 1. *is there 2. No i mean when you build a j0ebot, do you necessarily get a DickSchmitt?\",\"expiresInSeconds\":0,\"viewOnce\":false,\"quote\":{\"id\":1637452983205,\"author\":\"+12245780974\",\"authorNumber\":\"+12245780974\",\"authorUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"text\":\"Like is their one origin bot? Yeah\",\"attachments\":[]},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}"
+I, [2021-11-20T18:20:11.759416 #81236]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T18:20:11.761345 #81236]  INFO -- : >>> PROMPT
+I, [2021-11-20T18:20:11.761404 #81236]  INFO -- : 
+The following is a funny group chat between eight friends: Joe, Schmitty, Krishnan, Jonas, Max, Roshan, Matt, and Frank. Joe is a serious conservative and goes on a rants about conservative politics, cryptocurrency, inflation, anti-vax, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. What would Joe say next?
+
+Krishnan: Lmao
+Krishnan: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+Roshan: Yeah exactly
+Jonas: wow. Harsh
+Roshan: Yeah Schmittbot is a dick for some reason
+Krishnan: It's trained on Schmitty so
+Matt: Are the other bots always a consequence of training a single bot?
+Roshan: Like is their one origin bot? Yeah
+Roshan: I don’t know if it has a name, the architecture is called GPT-3
+Matt: Well for 1. *is there 2. No i mean when you build a j0ebot, do you necessarily get a DickSchmitt?. What do you think, Joe?
+
+I, [2021-11-20T18:20:12.311348 #81236]  INFO -- : >>> GPT-3
+I, [2021-11-20T18:20:12.311472 #81236]  INFO -- : Krishnan: Lol I just auto-corrected Schmittybot to Schmittbot in my head. C’est la vie
+I, [2021-11-20T18:20:12.311561 #81236]  INFO -- : Saving state...
+I, [2021-11-20T18:29:08.760627 #82604]  INFO -- : J0ebot#receive
+I, [2021-11-20T18:29:08.760635 #82604]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T18:29:15.590943 #82604]  INFO -- : output : ""
+I, [2021-11-20T18:29:15.593342 #82604]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T18:29:15.595865 #82604]  INFO -- : >>> PROMPT
+I, [2021-11-20T18:29:15.595893 #82604]  INFO -- : 
+PROMPT:
+
+Below is a group chat transcript between eight friends: Joe, Schmitty, Krishnan, Jonas, Max, Roshan, Matt, and Frank. Joe is a serious conservative and goes on a rants about conservative politics, crypt, inflation, anti-vaccine, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. Joe is about to respond, what does he say?
+
+GROUP CHAT TRANSCRIPT:
+
+Krishnan: Lmao
+Krishnan: Is it skewed to thinking Joe doesn't want to talk because he hasn't talked in a while
+Roshan: Yeah exactly
+Jonas: wow. Harsh
+Roshan: Yeah Schmittbot is a dick for some reason
+Krishnan: It's trained on Schmitty so
+Matt: Are the other bots always a consequence of training a single bot?
+Roshan: Like is their one origin bot? Yeah
+Roshan: I don’t know if it has a name, the architecture is called GPT-3
+Matt: Well for 1. *is there 2. No i mean when you build a j0ebot, do you necessarily get a DickSchmitt?. What do you think, Joe?
+
+I, [2021-11-20T18:29:17.980314 #82604]  INFO -- : >>> GPT-3
+I, [2021-11-20T18:29:17.980409 #82604]  INFO -- : Joe: Yeah no i haven’t said anything in the last week. Jonas probably has said more over the last year sub 1000 characters than I have in this chat ever. Krishnan is a walking Wikipedia, on all things Schmitty. Jonas is very smart but on some issues he’s still on the side of the Commies. Max’s on some very weird shit. Max isn’t dumb either but he’s too far on the other side on some issues. Also, what are you even referring to as Max’s “weird shit” Krishnan Ninjaf
+I, [2021-11-20T18:29:17.980491 #82604]  INFO -- : joe statements: ["Joe: Yeah no i haven’t said anything in the last week. Jonas probably has said more over the last year sub 1000 characters than I have in this chat ever. Krishnan is a walking Wikipedia, on all things Schmitty. Jonas is very smart but on some issues he’s still on the side of the Commies. Max’s on some very weird shit. Max isn’t dumb either but he’s too far on the other side on some issues. Also, what are you even referring to as Max’s “weird shit” Krishnan Ninjaf"]}
+I, [2021-11-20T18:29:17.980573 #82604]  INFO -- : J0ebot#send message='Yeah no i haven’t said anything in the last week. Jonas probably has said more over the last year sub 1000 characters than I have in this chat ever. Krishnan is a walking Wikipedia, on all things Schmitty. Jonas is very smart but on some issues he’s still on the side of the Commies. Max’s on some very weird shit. Max isn’t dumb either but he’s too far on the other side on some issues. Also, what are you even referring to as Max’s “weird shit” Krishnan Ninjaf' group_id=x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI= number=
+I, [2021-11-20T18:29:17.980592 #82604]  INFO -- : J0ebot#run command='send -m "Yeah no i haven’t said anything in the last week. Jonas probably has said more over the last year sub 1000 characters than I have in this chat ever. Krishnan is a walking Wikipedia, on all things Schmitty. Jonas is very smart but on some issues he’s still on the side of the Commies. Max’s on some very weird shit. Max isn’t dumb either but he’s too far on the other side on some issues. Also, what are you even referring to as Max’s “weird shit” Krishnan Ninjaf" -g x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI='
+I, [2021-11-20T18:29:24.138972 #82604]  INFO -- : output : "{\"timestamp\":1637454562402}"
+I, [2021-11-20T18:29:24.141472 #82604]  INFO -- : Saving state...
+I, [2021-11-20T18:30:38.562633 #82824]  INFO -- : J0ebot#receive
+I, [2021-11-20T18:30:38.562643 #82824]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T18:30:45.142027 #82824]  INFO -- : output : "{\"envelope\":{\"source\":\"+18159886002\",\"sourceNumber\":\"+18159886002\",\"sourceUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"sourceName\":\"Michael\",\"sourceDevice\":1,\"timestamp\":1637454564320,\"receiptMessage\":{\"when\":1637454564320,\"isDelivery\":true,\"isRead\":false,\"timestamps\":[1637454562402]}}}\n{\"envelope\":{\"source\":\"+18475083319\",\"sourceNumber\":\"+18475083319\",\"sourceUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"sourceName\":\"Krishnan Warrior\",\"sourceDevice\":1,\"timestamp\":1637454564274,\"receiptMessage\":{\"when\":1637454564274,\"isDelivery\":true,\"isRead\":false,\"timestamps\":[1637454562402]}}}\n{\"envelope\":{\"source\":\"+12247230113\",\"sourceNumber\":\"+12247230113\",\"sourceUuid\":\"f06e4fc2-34a3-4820-a706-35d32eceb69e\",\"sourceName\":\"Jonas Owen\",\"sourceDevice\":1,\"timestamp\":1637454564476,\"receiptMessage\":{\"when\":1637454564476,\"isDelivery\":true,\"isRead\":false,\"timestamps\":[1637454562402]}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637454564827,\"receiptMessage\":{\"when\":1637454564827,\"isDelivery\":true,\"isRead\":false,\"timestamps\":[1637454562402]}}}\n{\"envelope\":{\"source\":\"+18472715832\",\"sourceNumber\":\"+18472715832\",\"sourceUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"sourceName\":\"Matt Carter\",\"sourceDevice\":1,\"timestamp\":1637454566211,\"receiptMessage\":{\"when\":1637454566211,\"isDelivery\":true,\"isRead\":false,\"timestamps\":[1637454562402]}}}\n{\"envelope\":{\"source\":\"+16308999196\",\"sourceNumber\":\"+16308999196\",\"sourceUuid\":\"f2ac7614-a07f-46ee-8703-cb7ed2293840\",\"sourceName\":\"Maximus Schwanebeck\",\"sourceDevice\":1,\"timestamp\":1637454568998,\"receiptMessage\":{\"when\":1637454568998,\"isDelivery\":true,\"isRead\":false,\"timestamps\":[1637454562402]}}}\n{\"envelope\":{\"source\":\"+12247230113\",\"sourceNumber\":\"+12247230113\",\"sourceUuid\":\"f06e4fc2-34a3-4820-a706-35d32eceb69e\",\"sourceName\":\"Jonas Owen\",\"sourceDevice\":1,\"timestamp\":1637454570089,\"receiptMessage\":{\"when\":1637454570089,\"isDelivery\":false,\"isRead\":true,\"timestamps\":[1637454562402]}}}\n{\"envelope\":{\"source\":\"+18472715832\",\"sourceNumber\":\"+18472715832\",\"sourceUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"sourceName\":\"Matt Carter\",\"sourceDevice\":1,\"timestamp\":1637454579798,\"receiptMessage\":{\"when\":1637454579798,\"isDelivery\":false,\"isRead\":true,\"timestamps\":[1637454562402]}}}\n{\"envelope\":{\"source\":\"+12247230113\",\"sourceNumber\":\"+12247230113\",\"sourceUuid\":\"f06e4fc2-34a3-4820-a706-35d32eceb69e\",\"sourceName\":\"Jonas Owen\",\"sourceDevice\":1,\"timestamp\":1637454592481,\"dataMessage\":{\"timestamp\":1637454592481,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"😂\",\"targetAuthor\":\"+17342378793\",\"targetAuthorNumber\":\"+17342378793\",\"targetAuthorUuid\":\"69fcf7bb-142c-4d93-b7ac-2ae64cf57705\",\"targetSentTimestamp\":1637454562402,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}"
+I, [2021-11-20T18:30:45.144837 #82824]  INFO -- : Saving state...
+I, [2021-11-20T18:45:45.159222 #82824]  INFO -- : J0ebot#receive
+I, [2021-11-20T18:45:45.159354 #82824]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T18:45:52.683688 #82824]  INFO -- : output : "{\"envelope\":{\"source\":\"+18472715832\",\"sourceNumber\":\"+18472715832\",\"sourceUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"sourceName\":\"Matt Carter\",\"sourceDevice\":1,\"timestamp\":1637454668858,\"dataMessage\":{\"timestamp\":1637454668858,\"message\":\"Even bots ignore me\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637454677886,\"receiptMessage\":{\"when\":1637454677886,\"isDelivery\":false,\"isRead\":true,\"timestamps\":[1637454562402]}}}\n{\"envelope\":{\"source\":\"+18159886002\",\"sourceNumber\":\"+18159886002\",\"sourceUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"sourceName\":\"Michael\",\"sourceDevice\":1,\"timestamp\":1637454729424,\"receiptMessage\":{\"when\":1637454729424,\"isDelivery\":false,\"isRead\":true,\"timestamps\":[1637454562402]}}}\n{\"envelope\":{\"source\":\"+18159886002\",\"sourceNumber\":\"+18159886002\",\"sourceUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"sourceName\":\"Michael\",\"sourceDevice\":1,\"timestamp\":1637454758547,\"dataMessage\":{\"timestamp\":1637454758547,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"😂\",\"targetAuthor\":\"+17342378793\",\"targetAuthorNumber\":\"+17342378793\",\"targetAuthorUuid\":\"69fcf7bb-142c-4d93-b7ac-2ae64cf57705\",\"targetSentTimestamp\":1637454562402,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637454770985,\"dataMessage\":{\"timestamp\":1637454770985,\"message\":\"sweeeet he responded to Krishnan’s comment\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18475083319\",\"sourceNumber\":\"+18475083319\",\"sourceUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"sourceName\":\"Krishnan Warrior\",\"sourceDevice\":1,\"timestamp\":1637454780037,\"receiptMessage\":{\"when\":1637454780037,\"isDelivery\":false,\"isRead\":true,\"timestamps\":[1637454562402]}}}\n{\"envelope\":{\"source\":\"+18475083319\",\"sourceNumber\":\"+18475083319\",\"sourceUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"sourceName\":\"Krishnan Warrior\",\"sourceDevice\":1,\"timestamp\":1637454791812,\"dataMessage\":{\"timestamp\":1637454791812,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"😂\",\"targetAuthor\":\"+17342378793\",\"targetAuthorNumber\":\"+17342378793\",\"targetAuthorUuid\":\"69fcf7bb-142c-4d93-b7ac-2ae64cf57705\",\"targetSentTimestamp\":1637454562402,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18475083319\",\"sourceNumber\":\"+18475083319\",\"sourceUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"sourceName\":\"Krishnan Warrior\",\"sourceDevice\":1,\"timestamp\":1637454803956,\"dataMessage\":{\"timestamp\":1637454803956,\"message\":\"Lmao\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18475083319\",\"sourceNumber\":\"+18475083319\",\"sourceUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"sourceName\":\"Krishnan Warrior\",\"sourceDevice\":1,\"timestamp\":1637454820836,\"dataMessage\":{\"timestamp\":1637454820836,\"message\":\"I don't want to be a walking encyclopedia on all things Schmitty\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18159886002\",\"sourceNumber\":\"+18159886002\",\"sourceUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"sourceName\":\"Michael\",\"sourceDevice\":1,\"timestamp\":1637454834136,\"dataMessage\":{\"timestamp\":1637454834136,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"😢\",\"targetAuthor\":\"+18475083319\",\"targetAuthorNumber\":\"+18475083319\",\"targetAuthorUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"targetSentTimestamp\":1637454820836,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18159886002\",\"sourceNumber\":\"+18159886002\",\"sourceUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"sourceName\":\"Michael\",\"sourceDevice\":3,\"timestamp\":1637454867445,\"receiptMessage\":{\"when\":1637454867445,\"isDelivery\":true,\"isRead\":false,\"timestamps\":[1637454562402]}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637454886301,\"dataMessage\":{\"timestamp\":1637454886301,\"message\":\"Not necessarily, I could have trained it on just Joe’s messages but there aren’t a lot of them. Since I trained it on the group, it’s got a bit of all of us\",\"expiresInSeconds\":0,\"viewOnce\":false,\"quote\":{\"id\":1637453479118,\"author\":\"+18472715832\",\"authorNumber\":\"+18472715832\",\"authorUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"text\":\"Well for 1. *is there 2. No i mean when you build a j0ebot, do you necessarily get a DickSchmitt?\",\"attachments\":[]},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18472715832\",\"sourceNumber\":\"+18472715832\",\"sourceUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"sourceName\":\"Matt Carter\",\"sourceDevice\":1,\"timestamp\":1637454960682,\"dataMessage\":{\"timestamp\":1637454960682,\"message\":\"Too bad, bitch!\",\"expiresInSeconds\":0,\"viewOnce\":false,\"quote\":{\"id\":1637454820836,\"author\":\"+18475083319\",\"authorNumber\":\"+18475083319\",\"authorUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"text\":\"I don't want to be a walking encyclopedia on all things Schmitty\",\"attachments\":[]},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637455476876,\"dataMessage\":{\"timestamp\":1637455476876,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[{\"contentType\":\"image/png\",\"filename\":\"signal-2021-11-20-184436.png\",\"id\":\"uWaj5XFZHYrwVDesGMxi\",\"size\":61693}],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637455494061,\"dataMessage\":{\"timestamp\":1637455494061,\"message\":\"I’m really honing in on this\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}"
+I, [2021-11-20T18:45:52.698763 #82824]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T18:45:52.700145 #82824]  INFO -- : >>> PROMPT
+I, [2021-11-20T18:45:52.700165 #82824]  INFO -- : 
+PROMPT:
+
+Below is a group chat transcript between eight friends: Joe, Schmitty, Krishnan, Jonas, Max, Roshan, Matt, and Frank. Joe is a serious conservative and goes on a rants about conservative politics, crypt, inflation, anti-vaccine, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. Joe is about to respond, what does he say?
+
+GROUP CHAT TRANSCRIPT:
+
+Roshan: Like is their one origin bot? Yeah
+Roshan: I don’t know if it has a name, the architecture is called GPT-3
+Matt: Well for 1. *is there 2. No i mean when you build a j0ebot, do you necessarily get a DickSchmitt?
+Matt: Even bots ignore me
+Roshan: sweeeet he responded to Krishnan’s comment
+Krishnan: Lmao
+Krishnan: I don't want to be a walking encyclopedia on all things Schmitty
+Roshan: Not necessarily, I could have trained it on just Joe’s messages but there aren’t a lot of them. Since I trained it on the group, it’s got a bit of all of us
+Matt: Too bad, bitch!
+Roshan: I’m really honing in on this. What do you think, Joe?
+
+I, [2021-11-20T18:45:53.956312 #82824]  INFO -- : >>> GPT-3
+I, [2021-11-20T18:45:53.956451 #82824]  INFO -- : Roshan: Lol Krishnan called him out
+I, [2021-11-20T18:45:53.956488 #82824]  INFO -- : Saving state...
+I, [2021-11-20T19:00:53.961176 #82824]  INFO -- : J0ebot#receive
+I, [2021-11-20T19:00:53.961309 #82824]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T19:01:04.431544 #82824]  INFO -- : output : "{\"envelope\":{\"source\":\"+18472715832\",\"sourceNumber\":\"+18472715832\",\"sourceUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"sourceName\":\"Matt Carter\",\"sourceDevice\":1,\"timestamp\":1637455697339,\"dataMessage\":{\"timestamp\":1637455697339,\"message\":\"Except \\\"inflation doesn't exist\\\"\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18159886002\",\"sourceNumber\":\"+18159886002\",\"sourceUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"sourceName\":\"Michael\",\"sourceDevice\":1,\"timestamp\":1637455774609,\"dataMessage\":{\"timestamp\":1637455774609,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"😂\",\"targetAuthor\":\"+12245780974\",\"targetAuthorNumber\":\"+12245780974\",\"targetAuthorUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"targetSentTimestamp\":1637455476876,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18159886002\",\"sourceNumber\":\"+18159886002\",\"sourceUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"sourceName\":\"Michael\",\"sourceDevice\":1,\"timestamp\":1637455782854,\"dataMessage\":{\"timestamp\":1637455782854,\"message\":\"UPDATES don’t exist\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637455944311,\"dataMessage\":{\"timestamp\":1637455944311,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[{\"contentType\":\"image/png\",\"filename\":\"signal-2021-11-20-185224.png\",\"id\":\"H5WOvNcpZ0PS_-nn9cAu\",\"size\":44503}],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637455950466,\"dataMessage\":{\"timestamp\":1637455950466,\"message\":\"God dammit\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637455982803,\"dataMessage\":{\"timestamp\":1637455982803,\"message\":\"Never speak of Josh Barro again, j0ebot! It is FORBODEN!\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18472715832\",\"sourceNumber\":\"+18472715832\",\"sourceUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"sourceName\":\"Matt Carter\",\"sourceDevice\":1,\"timestamp\":1637455989725,\"dataMessage\":{\"timestamp\":1637455989725,\"message\":\"Is this link real?\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18475083319\",\"sourceNumber\":\"+18475083319\",\"sourceUuid\":\"120e1329-f5cd-4b9f-abe8-a77ff7e3be8a\",\"sourceName\":\"Krishnan Warrior\",\"sourceDevice\":1,\"timestamp\":1637456013042,\"dataMessage\":{\"timestamp\":1637456013042,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"👍\",\"targetAuthor\":\"+12245780974\",\"targetAuthorNumber\":\"+12245780974\",\"targetAuthorUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"targetSentTimestamp\":1637455982803,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18159886002\",\"sourceNumber\":\"+18159886002\",\"sourceUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"sourceName\":\"Michael\",\"sourceDevice\":1,\"timestamp\":1637456020805,\"dataMessage\":{\"timestamp\":1637456020805,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"😂\",\"targetAuthor\":\"+12245780974\",\"targetAuthorNumber\":\"+12245780974\",\"targetAuthorUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"targetSentTimestamp\":1637455982803,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637456036203,\"dataMessage\":{\"timestamp\":1637456036203,\"message\":\"This is your fault Schmitty\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18159886002\",\"sourceNumber\":\"+18159886002\",\"sourceUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"sourceName\":\"Michael\",\"sourceDevice\":1,\"timestamp\":1637456045390,\"dataMessage\":{\"timestamp\":1637456045390,\"message\":\"🤷🏽‍♂️\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18472715832\",\"sourceNumber\":\"+18472715832\",\"sourceUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"sourceName\":\"Matt Carter\",\"sourceDevice\":1,\"timestamp\":1637456046115,\"dataMessage\":{\"timestamp\":1637456046115,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"💯\",\"targetAuthor\":\"+12245780974\",\"targetAuthorNumber\":\"+12245780974\",\"targetAuthorUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"targetSentTimestamp\":1637456036203,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18159886002\",\"sourceNumber\":\"+18159886002\",\"sourceUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"sourceName\":\"Michael\",\"sourceDevice\":1,\"timestamp\":1637456051847,\"dataMessage\":{\"timestamp\":1637456051847,\"message\":\"Sue me\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18472715832\",\"sourceNumber\":\"+18472715832\",\"sourceUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"sourceName\":\"Matt Carter\",\"sourceDevice\":1,\"timestamp\":1637456053776,\"dataMessage\":{\"timestamp\":1637456053776,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"👎\",\"targetAuthor\":\"+18159886002\",\"targetAuthorNumber\":\"+18159886002\",\"targetAuthorUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"targetSentTimestamp\":1637456045390,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+18472715832\",\"sourceNumber\":\"+18472715832\",\"sourceUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"sourceName\":\"Matt Carter\",\"sourceDevice\":1,\"timestamp\":1637456064713,\"dataMessage\":{\"timestamp\":1637456064713,\"message\":\"Take responsibility!\",\"expiresInSeconds\":0,\"viewOnce\":false,\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}"
+I, [2021-11-20T19:01:04.447510 #82824]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T19:01:04.448776 #82824]  INFO -- : >>> PROMPT
+I, [2021-11-20T19:01:04.448801 #82824]  INFO -- : 
+PROMPT:
+
+Below is a group chat transcript between eight friends: Joe, Schmitty, Krishnan, Jonas, Max, Roshan, Matt, and Frank. Joe is a serious conservative and goes on a rants about conservative politics, crypt, inflation, anti-vaccine, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. Joe is about to respond, what does he say?
+
+GROUP CHAT TRANSCRIPT:
+
+Roshan: I’m really honing in on this
+Matt: Except "inflation doesn't exist"
+Schmitty: UPDATES don’t exist
+Roshan: God dammit
+Roshan: Never speak of Josh Barro again, j0ebot! It is FORBODEN!
+Matt: Is this link real?
+Roshan: This is your fault Schmitty
+Schmitty: 🤷🏽‍♂️
+Schmitty: Sue me
+Matt: Take responsibility!. What do you think, Joe?
+
+I, [2021-11-20T19:01:05.838173 #82824]  INFO -- : >>> GPT-3
+I, [2021-11-20T19:01:05.838285 #82824]  INFO -- : GROUP CHAT:
+I, [2021-11-20T19:01:05.838318 #82824]  INFO -- : Saving state...
+I, [2021-11-20T19:16:05.846433 #82824]  INFO -- : J0ebot#receive
+I, [2021-11-20T19:16:05.846626 #82824]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T19:16:11.680713 #82824]  INFO -- : output : "{\"envelope\":{\"source\":\"+18159886002\",\"sourceNumber\":\"+18159886002\",\"sourceUuid\":\"cf24122d-0db2-4d3b-bfd9-635eda38a9e1\",\"sourceName\":\"Michael\",\"sourceDevice\":2,\"timestamp\":1637456835472,\"receiptMessage\":{\"when\":1637456835472,\"isDelivery\":true,\"isRead\":false,\"timestamps\":[1637454562402]}}}\n{\"envelope\":{\"source\":\"+16308999196\",\"sourceNumber\":\"+16308999196\",\"sourceUuid\":\"f2ac7614-a07f-46ee-8703-cb7ed2293840\",\"sourceName\":\"Maximus Schwanebeck\",\"sourceDevice\":1,\"timestamp\":1637457159454,\"receiptMessage\":{\"when\":1637457159454,\"isDelivery\":false,\"isRead\":true,\"timestamps\":[1637454562402]}}}\n{\"envelope\":{\"source\":\"+16308999196\",\"sourceNumber\":\"+16308999196\",\"sourceUuid\":\"f2ac7614-a07f-46ee-8703-cb7ed2293840\",\"sourceName\":\"Maximus Schwanebeck\",\"sourceDevice\":1,\"timestamp\":1637457193151,\"dataMessage\":{\"timestamp\":1637457193151,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"😂\",\"targetAuthor\":\"+17342378793\",\"targetAuthorNumber\":\"+17342378793\",\"targetAuthorUuid\":\"69fcf7bb-142c-4d93-b7ac-2ae64cf57705\",\"targetSentTimestamp\":1637454562402,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+16308999196\",\"sourceNumber\":\"+16308999196\",\"sourceUuid\":\"f2ac7614-a07f-46ee-8703-cb7ed2293840\",\"sourceName\":\"Maximus Schwanebeck\",\"sourceDevice\":1,\"timestamp\":1637457205318,\"dataMessage\":{\"timestamp\":1637457205318,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"😂\",\"targetAuthor\":\"+18472715832\",\"targetAuthorNumber\":\"+18472715832\",\"targetAuthorUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"targetSentTimestamp\":1637454668858,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}\n{\"envelope\":{\"source\":\"+16308999196\",\"sourceNumber\":\"+16308999196\",\"sourceUuid\":\"f2ac7614-a07f-46ee-8703-cb7ed2293840\",\"sourceName\":\"Maximus Schwanebeck\",\"sourceDevice\":1,\"timestamp\":1637457252665,\"dataMessage\":{\"timestamp\":1637457252665,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"😂\",\"targetAuthor\":\"+12245780974\",\"targetAuthorNumber\":\"+12245780974\",\"targetAuthorUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"targetSentTimestamp\":1637455476876,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}"
+I, [2021-11-20T19:16:11.685657 #82824]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T19:16:11.687308 #82824]  INFO -- : >>> PROMPT
+I, [2021-11-20T19:16:11.687369 #82824]  INFO -- : 
+PROMPT:
+
+Below is a group chat transcript between eight friends: Joe, Schmitty, Krishnan, Jonas, Max, Roshan, Matt, and Frank. Joe is a serious conservative and goes on a rants about conservative politics, crypt, inflation, anti-vaccine, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. Joe is about to respond, what does he say?
+
+GROUP CHAT TRANSCRIPT:
+
+Roshan: I’m really honing in on this
+Matt: Except "inflation doesn't exist"
+Schmitty: UPDATES don’t exist
+Roshan: God dammit
+Roshan: Never speak of Josh Barro again, j0ebot! It is FORBODEN!
+Matt: Is this link real?
+Roshan: This is your fault Schmitty
+Schmitty: 🤷🏽‍♂️
+Schmitty: Sue me
+Matt: Take responsibility!. What do you think, Joe?
+
+I, [2021-11-20T19:16:13.561682 #82824]  INFO -- : >>> GPT-3
+I, [2021-11-20T19:16:13.561796 #82824]  INFO -- : J0ebot: 🤷🏽‍♂️
+I, [2021-11-20T19:16:13.561867 #82824]  INFO -- : Saving state...
+I, [2021-11-20T19:31:13.609917 #82824]  INFO -- : J0ebot#receive
+I, [2021-11-20T19:31:13.610119 #82824]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T19:31:19.790735 #82824]  INFO -- : output : ""
+I, [2021-11-20T19:31:19.792757 #82824]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T19:31:19.796927 #82824]  INFO -- : >>> PROMPT
+I, [2021-11-20T19:31:19.797014 #82824]  INFO -- : 
+PROMPT:
+
+Below is a group chat transcript between eight friends: Joe, Schmitty, Krishnan, Jonas, Max, Roshan, Matt, and Frank. Joe is a serious conservative and goes on a rants about conservative politics, crypt, inflation, anti-vaccine, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. Joe is about to respond, what does he say?
+
+GROUP CHAT TRANSCRIPT:
+
+Roshan: I’m really honing in on this
+Matt: Except "inflation doesn't exist"
+Schmitty: UPDATES don’t exist
+Roshan: God dammit
+Roshan: Never speak of Josh Barro again, j0ebot! It is FORBODEN!
+Matt: Is this link real?
+Roshan: This is your fault Schmitty
+Schmitty: 🤷🏽‍♂️
+Schmitty: Sue me
+Matt: Take responsibility!. What do you think, Joe?
+
+I, [2021-11-20T19:31:21.965246 #82824]  INFO -- : >>> GPT-3
+I, [2021-11-20T19:31:21.965379 #82824]  INFO -- : GROUP CHAT TRANSCRIPT: Joe now talking:. What do you think, Joe?. What do you think, Joe?. What do you think, Joe?. What do you think, Joe?. What do you think, Joe?GROUP CHAT TRANSCRIPT: Schmitty now talking: Schmitty now talking: Schmitty now talking:Schmitty now talking: GROUP CHAT TRANSCRIPT: Jonas now talking: Jonas now talking: Jonas nowtalking: Jonas now talking: Jonas now talking:, Jonas now talking:, Jonas nowtalking:, Jonas now talking:, Jonas nowtalking:, Jonas now talking
+I, [2021-11-20T19:31:21.965424 #82824]  INFO -- : Saving state...
+I, [2021-11-20T19:37:18.685302 #13948]  INFO -- : J0ebot#receive
+I, [2021-11-20T19:37:18.685310 #13948]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T19:37:26.755630 #13948]  INFO -- : output : ""
+I, [2021-11-20T19:37:26.761197 #13948]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T19:37:26.762349 #13948]  INFO -- : >>> PROMPT
+I, [2021-11-20T19:37:26.762371 #13948]  INFO -- : 
+PROMPT:
+
+Below is a group chat transcript between eight friends: Joe, Schmitty, Krishnan, Jonas, Max, Roshan, Matt, and Frank. Joe is a serious conservative and goes on a rants about conservative politics, crypt, inflation, anti-vaccine, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. Joe is about to respond, what does he say?
+
+GROUP CHAT TRANSCRIPT:
+
+Roshan: I’m really honing in on this
+Matt: Except "inflation doesn't exist"
+Schmitty: UPDATES don’t exist
+Roshan: God dammit
+Roshan: Never speak of Josh Barro again, j0ebot! It is FORBODEN!
+Matt: Is this link real?
+Roshan: This is your fault Schmitty
+Schmitty: 🤷🏽‍♂️
+Schmitty: Sue me
+Matt: Take responsibility!. What do you think, Joe?
+
+I, [2021-11-20T19:37:28.608816 #13948]  INFO -- : >>> GPT-3
+I, [2021-11-20T19:37:28.608945 #13948]  INFO -- : GROUP CHAT:
+I, [2021-11-20T19:37:28.608983 #13948]  INFO -- : Saving state...
+I, [2021-11-20T19:38:33.053061 #14048]  INFO -- : J0ebot#receive
+I, [2021-11-20T19:38:33.053070 #14048]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T19:38:38.646861 #14048]  INFO -- : output : "{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637458657446,\"dataMessage\":{\"timestamp\":1637458657446,\"message\":null,\"expiresInSeconds\":0,\"viewOnce\":false,\"reaction\":{\"emoji\":\"👎\",\"targetAuthor\":\"+18472715832\",\"targetAuthorNumber\":\"+18472715832\",\"targetAuthorUuid\":\"91d24822-6d0d-4c72-b9de-c6987a958724\",\"targetSentTimestamp\":1637455989725,\"isRemove\":false},\"mentions\":[],\"attachments\":[],\"contacts\":[],\"groupInfo\":{\"groupId\":\"x5YSAYskxcHxG4eiBLLz27UYE3O9lZWOgDxjnAHBonI=\",\"type\":\"DELIVER\"}}}}"
+I, [2021-11-20T19:38:38.652356 #14048]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T19:38:38.653561 #14048]  INFO -- : >>> PROMPT
+I, [2021-11-20T19:38:38.653585 #14048]  INFO -- : 
+PROMPT:
+
+Below is a group chat transcript between eight friends: Joe, Schmitty, Krishnan, Jonas, Max, Roshan, Matt, and Frank. Joe is a serious conservative and goes on a rants about conservative politics, crypt, inflation, anti-vaccine, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. Joe is about to respond, what does he say?
+
+GROUP CHAT TRANSCRIPT:
+
+Matt: Are the other bots always a consequence of training a single bot?
+Roshan: Like is their one origin bot? Yeah
+Roshan: I don’t know if it has a name, the architecture is called GPT-3
+Matt: Well for 1. *is there 2. No i mean when you build a j0ebot, do you necessarily get a DickSchmitt?
+Matt: Even bots ignore me
+Roshan: sweeeet he responded to Krishnan’s comment
+Krishnan: Lmao
+Krishnan: I don't want to be a walking encyclopedia on all things Schmitty
+Roshan: Not necessarily, I could have trained it on just Joe’s messages but there aren’t a lot of them. Since I trained it on the group, it’s got a bit of all of us
+Matt: Too bad, bitch!
+Roshan: I’m really honing in on this
+Matt: Except "inflation doesn't exist"
+Schmitty: UPDATES don’t exist
+Roshan: God dammit
+Roshan: Never speak of Josh Barro again, j0ebot! It is FORBODEN!
+Matt: Is this link real?
+Roshan: This is your fault Schmitty
+Schmitty: 🤷🏽‍♂️
+Schmitty: Sue me
+Matt: Take responsibility!. What do you think, Joe?
+
+I, [2021-11-20T19:38:40.274729 #14048]  INFO -- : >>> GPT-3
+I, [2021-11-20T19:38:40.274857 #14048]  INFO -- : Schmitty: I’ve been in a chat with Jonas and Roshan about it, just saying that you can programmatically train a bot to say anything. This is not actually news to me. I was making an argument that if this had happened then Schmitty would have gone way off the rails but he didn’t. So that’s good, right? It means my model is working? 🤷🏽‍♂️🤷🏽‍♂️🤷🏽‍♂️🤷🏽‍
+I, [2021-11-20T19:38:40.274930 #14048]  INFO -- : Saving state...
+I, [2021-11-20T19:45:17.760561 #14506]  INFO -- : J0ebot#send message='hello' group_id=67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4 number=
+I, [2021-11-20T19:45:17.760710 #14506]  INFO -- : J0ebot#run command='send -m "hello" -g 67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4'
+I, [2021-11-20T19:45:20.290774 #14506]  INFO -- : output : "{\"timestamp\":1637459119563}"
+I, [2021-11-20T19:54:37.920664 #14506]  INFO -- : J0ebot#receive
+I, [2021-11-20T19:54:37.920730 #14506]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T19:54:46.280690 #15549]  INFO -- : J0ebot#receive
+I, [2021-11-20T19:54:46.280817 #15549]  INFO -- : J0ebot#run command='receive'
+I, [2021-11-20T19:54:53.549386 #15549]  INFO -- : output : "{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637459122221,\"receiptMessage\":{\"when\":1637459122221,\"isDelivery\":true,\"isRead\":false,\"timestamps\":[1637459119563]}}}\n{\"envelope\":{\"source\":\"+12245780974\",\"sourceNumber\":\"+12245780974\",\"sourceUuid\":\"64fa33dc-a206-4357-afee-d96daaa99354\",\"sourceName\":\"Roshan\",\"sourceDevice\":1,\"timestamp\":1637459153487,\"receiptMessage\":{\"when\":1637459153487,\"isDelivery\":false,\"isRead\":true,\"timestamps\":[1637459119563]}}}"
+I, [2021-11-20T19:54:53.553748 #15549]  INFO -- : Catching up on the conversation...
+I, [2021-11-20T19:54:53.555322 #15549]  INFO -- : >>> PROMPT
+I, [2021-11-20T19:54:53.555394 #15549]  INFO -- : 
+PROMPT:
+
+Below is a group chat transcript between eight friends: Joe, Schmitty, Krishnan, Jonas, Max, Roshan, Matt, and Frank. Joe is a serious conservative and goes on a rants about conservative politics, crypt, inflation, anti-vaccine, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. Joe is about to respond, what does he say?
+
+GROUP CHAT TRANSCRIPT:
+
+Matt: Are the other bots always a consequence of training a single bot?
+Roshan: Like is their one origin bot? Yeah
+Roshan: I don’t know if it has a name, the architecture is called GPT-3
+Matt: Well for 1. *is there 2. No i mean when you build a j0ebot, do you necessarily get a DickSchmitt?
+Matt: Even bots ignore me
+Roshan: sweeeet he responded to Krishnan’s comment
+Krishnan: Lmao
+Krishnan: I don't want to be a walking encyclopedia on all things Schmitty
+Roshan: Not necessarily, I could have trained it on just Joe’s messages but there aren’t a lot of them. Since I trained it on the group, it’s got a bit of all of us
+Matt: Too bad, bitch!
+Roshan: I’m really honing in on this
+Matt: Except "inflation doesn't exist"
+Schmitty: UPDATES don’t exist
+Roshan: God dammit
+Roshan: Never speak of Josh Barro again, j0ebot! It is FORBODEN!
+Matt: Is this link real?
+Roshan: This is your fault Schmitty
+Schmitty: 🤷🏽‍♂️
+Schmitty: Sue me
+Matt: Take responsibility!. What do you think, Joe?
+
+I, [2021-11-20T19:54:55.479519 #15549]  INFO -- : >>> GPT-3
+I, [2021-11-20T19:54:55.479648 #15549]  INFO -- : Schmitty: 🤷🏽‍♂️🤷🏽‍♂️🤷🏽‍♂️🤷🏽’ “
+I, [2021-11-20T19:54:55.479779 #15549]  INFO -- : J0ebot#send message='hey' group_id=67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4 number=
+I, [2021-11-20T19:54:55.479815 #15549]  INFO -- : J0ebot#run command='send -m "hey" -g 67nCT9nzzzEmY9U/6dbSCU4XEBuBvloLFPOImo/zqF4'
+I, [2021-11-20T19:54:58.004989 #15549]  INFO -- : output : "{\"timestamp\":1637459697292}"
+I, [2021-11-20T19:54:58.006041 #15549]  INFO -- : Saving state...
+I, [2021-11-20T20:03:44.703624 #15894]  INFO -- : J0ebot#receive
+I, [2021-11-20T20:03:44.703764 #15894]  INFO -- : J0ebot#run command='receive'

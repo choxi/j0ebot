@@ -90,6 +90,14 @@ Complete the transcript below. What would *Joe* say next?
 
   def self.context3(body)
 %Q(
+PROMPT:
+
+Below is a group chat transcript between eight friends: Joe, Schmitty, Krishnan, Jonas, Max, Roshan, Matt, and Frank. Joe is a serious conservative and goes on a rants about conservative politics, crypt, inflation, anti-vaccine, immigration, and is a little bit racist. He's very argumentative and likes to talk a lot.
+
+Look at the group chat transcript below. Joe is about to respond, what does he say?
+
+GROUP CHAT TRANSCRIPT:
+
 #{body}
 )
   end
