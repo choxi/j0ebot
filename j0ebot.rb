@@ -64,21 +64,20 @@ class J0ebot
       state = JSON.parse(File.read(@state_path))
       @last_messaged_at = Time.parse(state["last_messaged_at"]) if state["last_messaged_at"]
     end
-
-    binding.pry
   end
 
   def listen
     loop do
       puts "Pulse..."
       receive
-      sleep 60 * 15 # 30 minutes
+      sleep 60 * 30 # 15 minutes
     end
   end
 
   def receive
     logger.info "J0ebot#receive"
     messages = run("receive")
+    h = history.recent_context(group_id: QANON_GROUP.id, last: 30).map {|msg| Message.new(msg) }
 
     messages.each do |message|
       history.push(message) if message.is_a? Hash
@@ -88,19 +87,19 @@ class J0ebot
     if context.length > 0
       logger.info "Catching up on the conversation..."
       context = history.recent_context(group_id: QANON_GROUP.id, last: 20).map {|msg| Message.new(msg) }
-      context.last.body += '. What do you think, Joe?'
+      # context.last.body += '. What do you think, Joe?'
 
       prompt = context.map(&:formatted).join("\n")
-      prompt = CoreNarrative.context3(prompt)
+      prompt = CoreNarrative.davinci(prompt)
       logger.info ">>> PROMPT"
       logger.info prompt
       response = openai.completions(parameters: {
-        model: MODELS.group_chat,
+        model: MODELS.davinci,
         prompt: prompt,
         max_tokens: 128,
         stop: "\n",
         frequency_penalty: 0.5,
-        presence_penalty: 2,
+        presence_penalty: 1.6,
         temperature: 0.7
       })
       choice = response["choices"][0]["text"]
@@ -109,12 +108,11 @@ class J0ebot
 
       joe_statements = choice.split("\n").filter {|line| line =~ /^Joe\:/}
       logger.info "joe statements: #{joe_statements.inspect}}" if joe_statements.length > 0
-      joe_statements = ['Joe: hey']
 
       if statement = joe_statements.first
         message = statement.split(":")[1].strip
-        send(message, group_id: SANDBOX_GROUP.id)
-        history.push(outbound_message(body: message, group_id: SANDBOX_GROUP.id))
+        send(message, group_id: QANON_GROUP.id)
+        history.push(outbound_message(body: message, group_id: QANON_GROUP.id))
         @last_messaged_at = Time.now.utc
       end
     end
@@ -157,25 +155,25 @@ class J0ebot
 
   def outbound_message(body:, group_id:)
     {
-      "envelope": {
-        "source": "+17342378793",
-        "sourceNumber": "+17342378793",
-        "sourceUuid": "j0ebot",
-        "sourceName": "Joe Janiczek",
-        "sourceDevice":1,
-        "timestamp": Time.now.to_i * 1000,
-        "dataMessage":{
-          "timestamp": Time.now.to_i * 1000,
-          "message": body,
+      "envelope" => {
+        "source" => "+17342378793",
+        "sourceNumber" => "+17342378793",
+        "sourceUuid" => "j0ebot",
+        "sourceName" => "Joe Janiczek",
+        "sourceDevice" => 1,
+        "timestamp" => Time.now.to_i * 1000,
+        "dataMessage" => {
+          "timestamp" => Time.now.to_i * 1000,
+          "message" => body,
           "expiresInSeconds": 0,
-          "viewOnce": false,
-          "reaction": [],
-          "mentions": [],
-          "attachments": [],
-          "contacts": [],
-          "groupInfo":{
-            "groupId": group_id,
-            "type": "DELIVER"
+          "viewOnce" => false,
+          "reaction" => [],
+          "mentions" => [],
+          "attachments" => [],
+          "contacts" => [],
+          "groupInfo" => {
+            "groupId" => group_id,
+            "type" => "DELIVER"
           }
         }
       }

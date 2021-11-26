@@ -45,8 +45,10 @@ end
 def generate_fine_tuning_file(messages, generative: false)
   formatted = messages.filter {|m| m && m["source_name"] && (m["body"] || '').strip.length > 0 }.map do |message|
     received_at = Time.at(message["sent_at"] / 1000.0)
+    name = message["source_name"].split.first
+    name = 'Schmitty' if name == 'Michael'
     if generative
-      puts "[#{received_at.strftime("%m-%d-%Y %I:%M %p")}] <#{message["source_name"]}> #{message["body"]}"
+      puts "#{name}: #{message["body"]}"
       {
         prompt: "",
         completion: "[#{received_at.strftime("%m-%d-%Y %I:%M %p")}] <#{message["source_name"]}> #{message["body"]}",
