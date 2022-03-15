@@ -70,7 +70,7 @@ class J0ebot
     loop do
       puts "Pulse..."
       receive
-      sleep 60 * 30 # 15 minutes
+      sleep 60 * 15 # 15 minutes
     end
   end
 
@@ -102,18 +102,24 @@ class J0ebot
         presence_penalty: 1.6,
         temperature: 0.7
       })
-      choice = response["choices"][0]["text"]
-      logger.info ">>> GPT-3"
-      logger.info choice
+      begin
+        choice = response["choices"][0]["text"]
+        logger.info ">>> GPT-3"
+        logger.info choice
 
-      joe_statements = choice.split("\n").filter {|line| line =~ /^Joe\:/}
-      logger.info "joe statements: #{joe_statements.inspect}}" if joe_statements.length > 0
+        joe_statements = choice.split("\n").filter {|line| line =~ /^Joe\:/}
+        logger.info "joe statements: #{joe_statements.inspect}}" if joe_statements.length > 0
 
-      if statement = joe_statements.first
-        message = statement.split(":")[1].strip
-        send(message, group_id: QANON_GROUP.id)
-        history.push(outbound_message(body: message, group_id: QANON_GROUP.id))
-        @last_messaged_at = Time.now.utc
+        if statement = joe_statements.first
+          message = statement.split(":")[1].strip
+          message = message.gsub("\"", "\\\"")
+          send(message, group_id: QANON_GROUP.id)
+          history.push(outbound_message(body: message, group_id: QANON_GROUP.id))
+          @last_messaged_at = Time.now.utc
+        end
+      rescue => e
+        logger.info "GPT Fail"
+        puts e.inspect
       end
     end
 
